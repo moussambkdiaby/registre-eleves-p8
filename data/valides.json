@@ -1,0 +1,6745 @@
+[
+  {
+    "code": "AAD004",
+    "numero": "LIHGFR0",
+    "nom": "Diallo",
+    "prenom": "Nourou",
+    "date": "02/01/2012",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          14.0,
+          15.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.5
+      },
+      "Francais": {
+        "devoirs": [
+          12.0,
+          13.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          14.0,
+          13.0
+        ],
+        "examen": 7.0,
+        "moyenne": 9.17
+      },
+      "SVT": {
+        "devoirs": [
+          15.0,
+          19.0
+        ],
+        "examen": 10.0,
+        "moyenne": 12.33
+      },
+      "HG": {
+        "devoirs": [
+          13.0,
+          12.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.17
+      }
+    }
+  },
+  {
+    "code": "AAD005",
+    "numero": "40DKG6T",
+    "nom": "Diallo",
+    "prenom": "awa",
+    "date": "21/10/2004",
+    "classe": "6emeA",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          17.0,
+          20.0,
+          18.0
+        ],
+        "examen": 15.0,
+        "moyenne": 16.11
+      },
+      "Math": {
+        "devoirs": [
+          15.0,
+          16.15,
+          13.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.24
+      },
+      "Francais": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.33
+      },
+      "Anglais": {
+        "devoirs": [
+          14.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.33
+      },
+      "SVT": {
+        "devoirs": [
+          13.0,
+          11.0,
+          15.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.17
+      },
+      "HG": {
+        "devoirs": [
+          15.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.67
+      }
+    }
+  },
+  {
+    "code": "AAD005",
+    "numero": "44DSW78",
+    "nom": "Ndiaye",
+    "prenom": "Sidy",
+    "date": "19/01/2005",
+    "classe": "4emeB",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          7.0,
+          10.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.56
+      },
+      "Math": {
+        "devoirs": [
+          11.0,
+          10.0,
+          12.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.33
+      },
+      "Francais": {
+        "devoirs": [
+          14.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.67
+      },
+      "Anglais": {
+        "devoirs": [
+          14.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.0
+      },
+      "SVT": {
+        "devoirs": [
+          14.0,
+          12.0,
+          10.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.67
+      },
+      "HG": {
+        "devoirs": [
+          14.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.0
+      }
+    }
+  },
+  {
+    "code": "AAD005",
+    "numero": "20LH7BG",
+    "nom": "FAYE",
+    "prenom": "Fallou",
+    "date": "19/04/2002",
+    "classe": "4emeA",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          8.0,
+          13.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.56
+      },
+      "Math": {
+        "devoirs": [
+          10.0,
+          10.1,
+          11.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.12
+      },
+      "Francais": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.67
+      },
+      "Anglais": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          15.0,
+          10.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.5
+      },
+      "HG": {
+        "devoirs": [
+          8.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.33
+      }
+    }
+  },
+  {
+    "code": "AAD005",
+    "numero": "8D805GT",
+    "nom": "Diop",
+    "prenom": "Seyni",
+    "date": "29/09/2005",
+    "classe": "3emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.5
+      },
+      "Francais": {
+        "devoirs": [
+          7.0,
+          12.0,
+          8.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          13.5,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.75
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      }
+    }
+  },
+  {
+    "code": "AAD005",
+    "numero": "9HBW36T",
+    "nom": "Ba",
+    "prenom": "Aliou",
+    "date": "01/01/2006",
+    "classe": "5emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.17
+      },
+      "Francais": {
+        "devoirs": [
+          10.0,
+          11.0,
+          10.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.44
+      },
+      "Anglais": {
+        "devoirs": [
+          14.12,
+          13.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.52
+      },
+      "PC": {
+        "devoirs": [
+          15.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.0
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          10.0,
+          17.0,
+          13.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.33
+      },
+      "HG": {
+        "devoirs": [
+          17.0
+        ],
+        "examen": 14.0,
+        "moyenne": 15.0
+      }
+    }
+  },
+  {
+    "code": "AAD005",
+    "numero": "W8NNJ6T",
+    "nom": "Ndoye",
+    "prenom": "Ousmane",
+    "date": "09/04/2004",
+    "classe": "5emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          20.0,
+          18.0
+        ],
+        "examen": 18.0,
+        "moyenne": 18.33
+      },
+      "Francais": {
+        "devoirs": [
+          12.0,
+          14.0,
+          14.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.11
+      },
+      "Anglais": {
+        "devoirs": [
+          15.16,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.53
+      },
+      "PC": {
+        "devoirs": [
+          17.0
+        ],
+        "examen": 18.0,
+        "moyenne": 17.67
+      },
+      "SVT": {
+        "devoirs": [
+          14.0,
+          15.0,
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.33
+      },
+      "HG": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 16.0,
+        "moyenne": 15.0
+      }
+    }
+  },
+  {
+    "code": "AAD005",
+    "numero": "23YLTXT",
+    "nom": "Baal",
+    "prenom": "Thierno",
+    "date": "22/01/2006",
+    "classe": "3emeA",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          13.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.67
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          14.0,
+          15.0
+        ],
+        "examen": 8.0,
+        "moyenne": 9.89
+      },
+      "Francais": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.0
+      },
+      "Anglais": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.33
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          12.0,
+          10.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.44
+      },
+      "HG": {
+        "devoirs": [
+          8.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.33
+      }
+    }
+  },
+  {
+    "code": "AAD005",
+    "numero": "48DKG8T",
+    "nom": "Baal",
+    "prenom": "Boubou",
+    "date": "26/04/2003",
+    "classe": "4emeB",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          17.0,
+          11.0,
+          8.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.33
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          10.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.67
+      },
+      "Francais": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.67
+      },
+      "Anglais": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "SVT": {
+        "devoirs": [
+          13.0,
+          15.0,
+          11.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.67
+      },
+      "HG": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 17.0,
+        "moyenne": 15.33
+      }
+    }
+  },
+  {
+    "code": "AAD005",
+    "numero": "Q7XVP6G",
+    "nom": "Seck",
+    "prenom": "Bineta",
+    "date": "12/02/2005",
+    "classe": "3emeA",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          14.0,
+          8.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.33
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.33
+      },
+      "Francais": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 16.0,
+        "moyenne": 15.0
+      },
+      "Anglais": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.0
+      },
+      "SVT": {
+        "devoirs": [
+          13.0,
+          13.0,
+          12.0
+        ],
+        "examen": 8.0,
+        "moyenne": 9.56
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.33
+      }
+    }
+  },
+  {
+    "code": "AAD007",
+    "numero": "H18AC4W",
+    "nom": "BA",
+    "prenom": "Mouhamed",
+    "date": "14/01/2005",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.5
+      },
+      "Francais": {
+        "devoirs": [
+          7.0,
+          12.0,
+          8.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          13.5,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.75
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      }
+    }
+  },
+  {
+    "code": "AAD007",
+    "numero": "EPJHQQ5",
+    "nom": "DIAW",
+    "prenom": "Fallou",
+    "date": "12/08/2006",
+    "classe": "3emeB",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          14.5,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "Francais": {
+        "devoirs": [
+          14.0,
+          12.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.0
+      },
+      "Anglais": {
+        "devoirs": [
+          12.8
+        ],
+        "examen": 15.0,
+        "moyenne": 14.27
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          9.0,
+          16.0,
+          13.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.0
+      }
+    }
+  },
+  {
+    "code": "AAD007",
+    "numero": "KM729R9",
+    "nom": "NDIAYE",
+    "prenom": "Marie",
+    "date": "19/02/2007",
+    "classe": "3emeA",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          14.5,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "Francais": {
+        "devoirs": [
+          4.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.17
+      },
+      "Anglais": {
+        "devoirs": [
+          13.8
+        ],
+        "examen": 15.0,
+        "moyenne": 14.6
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.33
+      }
+    }
+  },
+  {
+    "code": "AAD007",
+    "numero": "Q7U2XFP",
+    "nom": "DEME",
+    "prenom": "Abdou",
+    "date": "16/01/2004",
+    "classe": "4emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          14.5,
+          11.0,
+          13.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.71
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "Francais": {
+        "devoirs": [
+          4.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.17
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      },
+      "Anglais": {
+        "devoirs": [
+          13.5
+        ],
+        "examen": 15.0,
+        "moyenne": 14.5
+      }
+    }
+  },
+  {
+    "code": "AAD007",
+    "numero": "0747PMJ",
+    "nom": "Ndao",
+    "prenom": "Baye Ndiaga",
+    "date": "08/08/2008",
+    "classe": "5emeB",
+    "matieres": {
+      "SVT": {
+        "devoirs": [
+          13.0,
+          9.0,
+          11.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          14.5,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "Francais": {
+        "devoirs": [
+          8.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.83
+      },
+      "Anglais": {
+        "devoirs": [
+          13.5
+        ],
+        "examen": 15.0,
+        "moyenne": 14.5
+      },
+      "PC": {
+        "devoirs": [
+          13.0,
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 10.0
+      }
+    }
+  },
+  {
+    "code": "AAD007",
+    "numero": "18G9C4L",
+    "nom": "DIEYE",
+    "prenom": "Abdoulaye",
+    "date": "01/01/2002",
+    "classe": "6emeB",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          14.5,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "Francais": {
+        "devoirs": [
+          4.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.17
+      },
+      "Anglais": {
+        "devoirs": [
+          13.8
+        ],
+        "examen": 15.0,
+        "moyenne": 14.6
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.33
+      }
+    }
+  },
+  {
+    "code": "AAD007",
+    "numero": "UQI7FN8",
+    "nom": "Cyrille",
+    "prenom": "Keys",
+    "date": "07/11/2007",
+    "classe": "4emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          9.0,
+          10.5,
+          11.0,
+          13.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.29
+      },
+      "PC": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 19.0,
+        "moyenne": 16.67
+      },
+      "Francais": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.17
+      },
+      "SVT": {
+        "devoirs": [
+          15.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.25
+      },
+      "HG": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.0
+      },
+      "Anglais": {
+        "devoirs": [
+          13.12
+        ],
+        "examen": 15.0,
+        "moyenne": 14.37
+      }
+    }
+  },
+  {
+    "code": "AAD007",
+    "numero": "9H37AKZ",
+    "nom": "LOW",
+    "prenom": "Joakim",
+    "date": "20/12/2002",
+    "classe": "4emeA",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          14.5,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "Francais": {
+        "devoirs": [
+          14.0,
+          12.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.0
+      },
+      "Anglais": {
+        "devoirs": [
+          12.8
+        ],
+        "examen": 15.0,
+        "moyenne": 14.27
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          9.0,
+          16.0,
+          13.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.0
+      }
+    }
+  },
+  {
+    "code": "AAD007",
+    "numero": "6691DTO",
+    "nom": "Ndour",
+    "prenom": "Karin",
+    "date": "07/07/2003",
+    "classe": "5emeB",
+    "matieres": {
+      "SVT": {
+        "devoirs": [
+          15.0,
+          11.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.11
+      },
+      "HG": {
+        "devoirs": [
+          6.0
+        ],
+        "examen": 16.0,
+        "moyenne": 12.67
+      },
+      "Math": {
+        "devoirs": [
+          10.0,
+          14.9,
+          11.0
+        ],
+        "examen": 17.0,
+        "moyenne": 15.32
+      },
+      "Francais": {
+        "devoirs": [
+          8.0,
+          13.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.17
+      },
+      "Anglais": {
+        "devoirs": [
+          18.5
+        ],
+        "examen": 15.0,
+        "moyenne": 16.17
+      },
+      "PC": {
+        "devoirs": [
+          7.0,
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.0
+      }
+    }
+  },
+  {
+    "code": "AAD007",
+    "numero": "8YM0304",
+    "nom": "KIBINDA",
+    "prenom": "Iniess",
+    "date": "15/08/2005",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.5
+      },
+      "Francais": {
+        "devoirs": [
+          7.0,
+          9.0,
+          8.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.33
+      },
+      "Anglais": {
+        "devoirs": [
+          10.5,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.25
+      },
+      "PC": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          11.0,
+          16.0,
+          8.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.92
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.0
+      }
+    }
+  },
+  {
+    "code": "ABD009",
+    "numero": "345ERTH",
+    "nom": "Abdou",
+    "prenom": "Wade",
+    "date": "31/12/2007",
+    "classe": "6emeD",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          12.0,
+          4.0
+        ],
+        "examen": 15.0,
+        "moyenne": 12.67
+      },
+      "Francais": {
+        "devoirs": [
+          10.0,
+          17.0,
+          18.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          10.9,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.32
+      },
+      "PC": {
+        "devoirs": [
+          0.0
+        ],
+        "examen": 11.0,
+        "moyenne": 7.33
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          20.0,
+          16.0,
+          10.0
+        ],
+        "examen": 9.0,
+        "moyenne": 10.67
+      },
+      "HG": {
+        "devoirs": [
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.67
+      }
+    }
+  },
+  {
+    "code": "ABD009",
+    "numero": "SDFTY34",
+    "nom": "Senir",
+    "prenom": "Mbol",
+    "date": "24/02/2015",
+    "classe": "4emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          1.0,
+          5.0
+        ],
+        "examen": 8.0,
+        "moyenne": 6.33
+      },
+      "Francais": {
+        "devoirs": [
+          10.0,
+          9.0,
+          18.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.78
+      },
+      "Anglais": {
+        "devoirs": [
+          10.9,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.32
+      },
+      "PC": {
+        "devoirs": [
+          17.0
+        ],
+        "examen": 11.0,
+        "moyenne": 13.0
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          20.0,
+          16.0,
+          10.0
+        ],
+        "examen": 9.0,
+        "moyenne": 10.67
+      },
+      "HG": {
+        "devoirs": [
+          6.0
+        ],
+        "examen": 10.0,
+        "moyenne": 8.67
+      }
+    }
+  },
+  {
+    "code": "ABD009",
+    "numero": "ZRDFD4S",
+    "nom": "Ndiareme",
+    "prenom": "Sylla",
+    "date": "03/09/2005",
+    "classe": "3emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          1.0,
+          4.0
+        ],
+        "examen": 15.0,
+        "moyenne": 10.83
+      },
+      "Francais": {
+        "devoirs": [
+          0.0,
+          19.0,
+          8.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.67
+      },
+      "Anglais": {
+        "devoirs": [
+          2.19,
+          1.0
+        ],
+        "examen": 5.0,
+        "moyenne": 3.87
+      },
+      "PC": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          20.0,
+          16.0,
+          10.0
+        ],
+        "examen": 9.0,
+        "moyenne": 10.67
+      },
+      "HG": {
+        "devoirs": [
+          9.0
+        ],
+        "examen": 1.0,
+        "moyenne": 3.67
+      }
+    }
+  },
+  {
+    "code": "ABD009",
+    "numero": "DFGE67T",
+    "nom": "Mbor",
+    "prenom": "Tounkho",
+    "date": "17/10/2001",
+    "classe": "5emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          4.0
+        ],
+        "examen": 5.0,
+        "moyenne": 5.67
+      },
+      "Francais": {
+        "devoirs": [
+          12.0,
+          19.0,
+          18.0
+        ],
+        "examen": 10.0,
+        "moyenne": 12.11
+      },
+      "Anglais": {
+        "devoirs": [
+          10.9,
+          9.0
+        ],
+        "examen": 4.0,
+        "moyenne": 5.98
+      },
+      "PC": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          10.0,
+          8.0,
+          10.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.17
+      },
+      "HG": {
+        "devoirs": [
+          9.0
+        ],
+        "examen": 17.0,
+        "moyenne": 14.33
+      }
+    }
+  },
+  {
+    "code": "ABD009",
+    "numero": "23453RD",
+    "nom": "yéré",
+    "prenom": "Niani",
+    "date": "05/11/2012",
+    "classe": "3emeD",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          18.0,
+          4.0
+        ],
+        "examen": 8.0,
+        "moyenne": 9.0
+      },
+      "Francais": {
+        "devoirs": [
+          10.0,
+          9.0,
+          18.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.11
+      },
+      "Anglais": {
+        "devoirs": [
+          10.9,
+          9.0
+        ],
+        "examen": 3.0,
+        "moyenne": 5.32
+      },
+      "PC": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          6.0,
+          16.0,
+          10.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.5
+      },
+      "HG": {
+        "devoirs": [
+          19.0
+        ],
+        "examen": 10.0,
+        "moyenne": 13.0
+      }
+    }
+  },
+  {
+    "code": "ABD009",
+    "numero": "56GFSE6",
+    "nom": "Awa",
+    "prenom": "Samaké",
+    "date": "30/09/2005",
+    "classe": "5emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          1.0,
+          4.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.5
+      },
+      "Francais": {
+        "devoirs": [
+          1.0,
+          9.0,
+          18.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.78
+      },
+      "Anglais": {
+        "devoirs": [
+          10.9,
+          9.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.32
+      },
+      "PC": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          20.0,
+          16.0,
+          10.0
+        ],
+        "examen": 9.0,
+        "moyenne": 10.67
+      },
+      "HG": {
+        "devoirs": [
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.67
+      }
+    }
+  },
+  {
+    "code": "AFD006",
+    "numero": "2022HEC",
+    "nom": "SYLLA",
+    "prenom": "Gallas",
+    "date": "02/03/2000",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          9.0,
+          15.0
+        ],
+        "examen": 19.0,
+        "moyenne": 16.67
+      },
+      "Français": {
+        "devoirs": [
+          10.0,
+          12.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.33
+      },
+      "Anglais": {
+        "devoirs": [
+          18.0,
+          14.0
+        ],
+        "examen": 19.0,
+        "moyenne": 18.0
+      },
+      "PC": {
+        "devoirs": [
+          9.0,
+          10.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.17
+      },
+      "SVT": {
+        "devoirs": [
+          3.0,
+          11.0
+        ],
+        "examen": 16.0,
+        "moyenne": 13.0
+      },
+      "HG": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.33
+      }
+    }
+  },
+  {
+    "code": "AFD006",
+    "numero": "2017ERT",
+    "nom": "MANTANE",
+    "prenom": "Elisabeth",
+    "date": "03/04/1996",
+    "classe": "4emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.5
+      },
+      "Francais": {
+        "devoirs": [
+          7.0,
+          12.0,
+          8.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          13.5,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.75
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      }
+    }
+  },
+  {
+    "code": "AFD006",
+    "numero": "2014TGR",
+    "nom": "MENDY",
+    "prenom": "Marcelin",
+    "date": "12/11/1992",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "AFD006",
+    "numero": "2020DFH",
+    "nom": "NDIAYE",
+    "prenom": "Fatah",
+    "date": "23/08/2000",
+    "classe": "4emeB",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          14.5,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "Francais": {
+        "devoirs": [
+          14.0,
+          12.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.0
+      },
+      "Anglais": {
+        "devoirs": [
+          12.8
+        ],
+        "examen": 15.0,
+        "moyenne": 14.27
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          9.0,
+          16.0,
+          13.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.0
+      }
+    }
+  },
+  {
+    "code": "AFD006",
+    "numero": "2019R3M",
+    "nom": "MOHAMED",
+    "prenom": "Ben Omar",
+    "date": "30/03/1999",
+    "classe": "3emeC",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          12.0,
+          16.0,
+          18.0
+        ],
+        "examen": 19.0,
+        "moyenne": 17.78
+      },
+      "Françcais": {
+        "devoirs": [
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.33
+      },
+      "Anglais": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.5
+      },
+      "PC": {
+        "devoirs": [
+          15.0,
+          17.0,
+          13.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.33
+      },
+      "SVT": {
+        "devoirs": [
+          16.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.67
+      },
+      "HG": {
+        "devoirs": [
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.33
+      }
+    }
+  },
+  {
+    "code": "AKH014",
+    "numero": "2020UT6",
+    "nom": "SIHARAJ",
+    "prenom": "SORPHAKA",
+    "date": "11/09/2002",
+    "classe": "6emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          14.0,
+          12.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.33
+      },
+      "Francais": {
+        "devoirs": [
+          18.0,
+          6.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.33
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          12.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.5
+      },
+      "PC": {
+        "devoirs": [
+          18.0,
+          13.0
+        ],
+        "examen": 7.0,
+        "moyenne": 9.83
+      },
+      "SVT": {
+        "devoirs": [
+          11.0,
+          19.0
+        ],
+        "examen": 12.0,
+        "moyenne": 13.0
+      },
+      "HG": {
+        "devoirs": [
+          13.0,
+          15.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.67
+      }
+    }
+  },
+  {
+    "code": "AKH014",
+    "numero": "2021IJ3",
+    "nom": "LEFRANC",
+    "prenom": "LYDIE",
+    "date": "04/06/2001",
+    "classe": "4emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "AKH014",
+    "numero": "PO0023R",
+    "nom": "DUPASQUIER",
+    "prenom": "ERIC",
+    "date": "02/09/1990",
+    "classe": "3emeC",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          20.0,
+          18.0
+        ],
+        "examen": 18.0,
+        "moyenne": 18.33
+      },
+      "Francais": {
+        "devoirs": [
+          12.0,
+          14.0,
+          14.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.11
+      },
+      "Anglais": {
+        "devoirs": [
+          15.16,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.53
+      },
+      "PC": {
+        "devoirs": [
+          17.0
+        ],
+        "examen": 18.0,
+        "moyenne": 17.67
+      },
+      "SVT": {
+        "devoirs": [
+          14.0,
+          15.0,
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.33
+      },
+      "HG": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 16.0,
+        "moyenne": 15.0
+      }
+    }
+  },
+  {
+    "code": "AKH014",
+    "numero": "1992I0E",
+    "nom": "MAHMOUD",
+    "prenom": "ABDERRAHMAN",
+    "date": "12/12/1999",
+    "classe": "4emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.5
+      },
+      "Francais": {
+        "devoirs": [
+          7.0,
+          12.0,
+          8.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          13.5,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.75
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      }
+    }
+  },
+  {
+    "code": "AKH014",
+    "numero": "20L6TRA",
+    "nom": "MIMOUNI",
+    "prenom": "MIMOUNI",
+    "date": "12/07/1997",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "AKH014",
+    "numero": "54FR342",
+    "nom": "Kamou",
+    "prenom": "LAYE",
+    "date": "04/03/2020",
+    "classe": "5emeC",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "ALT020",
+    "numero": "CIDIE01",
+    "nom": "CISSE",
+    "prenom": "Diégane",
+    "date": "02/05/1932",
+    "classe": "5emeA",
+    "matieres": {
+      "MATH": {
+        "devoirs": [
+          15.0,
+          17.0
+        ],
+        "examen": 20.0,
+        "moyenne": 18.67
+      },
+      "SVT": {
+        "devoirs": [
+          11.0,
+          13.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.67
+      },
+      "PC": {
+        "devoirs": [
+          15.0,
+          12.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.5
+      },
+      "ANGLAIS": {
+        "devoirs": [
+          5.0,
+          12.0
+        ],
+        "examen": 15.0,
+        "moyenne": 12.83
+      },
+      "FRANCAIS": {
+        "devoirs": [
+          6.0,
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 8.83
+      },
+      "HG": {
+        "devoirs": [
+          1.0,
+          15.0
+        ],
+        "examen": 18.0,
+        "moyenne": 14.67
+      }
+    }
+  },
+  {
+    "code": "ALT020",
+    "numero": "MN45LD5",
+    "nom": "SENGHOR",
+    "prenom": "Mbegane",
+    "date": "12/05/1968",
+    "classe": "4emeA",
+    "matieres": {
+      "MATH": {
+        "devoirs": [
+          19.0,
+          4.0
+        ],
+        "examen": 8.0,
+        "moyenne": 9.17
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          5.0
+        ],
+        "examen": 16.0,
+        "moyenne": 13.5
+      },
+      "PC": {
+        "devoirs": [
+          7.0,
+          13.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.33
+      },
+      "ANGLAIS": {
+        "devoirs": [
+          13.0,
+          17.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.33
+      },
+      "FRANCAIS": {
+        "devoirs": [
+          19.0,
+          17.0
+        ],
+        "examen": 11.0,
+        "moyenne": 13.33
+      },
+      "HG": {
+        "devoirs": [
+          15.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.33
+      }
+    }
+  },
+  {
+    "code": "ALT020",
+    "numero": "KF578FG",
+    "nom": "MARA",
+    "prenom": "Souma",
+    "date": "17/11/1921",
+    "classe": "3emeA",
+    "matieres": {
+      "MATH": {
+        "devoirs": [
+          11.0,
+          14.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.83
+      },
+      "SVT": {
+        "devoirs": [
+          7.0,
+          16.0
+        ],
+        "examen": 20.0,
+        "moyenne": 17.17
+      },
+      "PC": {
+        "devoirs": [
+          14.0,
+          12.0
+        ],
+        "examen": 17.0,
+        "moyenne": 15.67
+      },
+      "ANGLAIS": {
+        "devoirs": [
+          11.0,
+          6.0
+        ],
+        "examen": 15.0,
+        "moyenne": 12.83
+      },
+      "FRANCAIS": {
+        "devoirs": [
+          16.0,
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 10.5
+      },
+      "HG": {
+        "devoirs": [
+          8.0,
+          16.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.67
+      }
+    }
+  },
+  {
+    "code": "ALT020",
+    "numero": "VF14HGZ",
+    "nom": "TAMBEDOU",
+    "prenom": "NiouKH",
+    "date": "18/12/1999",
+    "classe": "4emeB",
+    "matieres": {
+      "MATH": {
+        "devoirs": [
+          10.0,
+          12.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.0
+      },
+      "SVT": {
+        "devoirs": [
+          5.0,
+          7.0
+        ],
+        "examen": 11.0,
+        "moyenne": 9.33
+      },
+      "PC": {
+        "devoirs": [
+          15.0,
+          5.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.33
+      },
+      "ANGLAIS": {
+        "devoirs": [
+          11.0,
+          16.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.5
+      },
+      "FRANCAIS": {
+        "devoirs": [
+          16.0,
+          11.0
+        ],
+        "examen": 19.0,
+        "moyenne": 17.17
+      },
+      "HG": {
+        "devoirs": [
+          11.0,
+          10.0
+        ],
+        "examen": 18.0,
+        "moyenne": 15.5
+      }
+    }
+  },
+  {
+    "code": "ALT020",
+    "numero": "RTOP15K",
+    "nom": "SARR",
+    "prenom": "Mbissine",
+    "date": "01/12/1996",
+    "classe": "5emeB",
+    "matieres": {
+      "MATH": {
+        "devoirs": [
+          16.0,
+          16.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.33
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          13.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.5
+      },
+      "PC": {
+        "devoirs": [
+          10.0,
+          14.0
+        ],
+        "examen": 18.0,
+        "moyenne": 16.0
+      },
+      "ANGLAIS": {
+        "devoirs": [
+          15.0,
+          14.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.83
+      },
+      "FRANCAIS": {
+        "devoirs": [
+          11.0,
+          11.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.33
+      },
+      "HG": {
+        "devoirs": [
+          19.0,
+          16.0
+        ],
+        "examen": 12.0,
+        "moyenne": 13.83
+      }
+    }
+  },
+  {
+    "code": "ALT020",
+    "numero": "HGKE145",
+    "nom": "DEME",
+    "prenom": "Ndew",
+    "date": "15/02/1956",
+    "classe": "6emeB",
+    "matieres": {
+      "MATH": {
+        "devoirs": [
+          15.0,
+          15.0
+        ],
+        "examen": 16.0,
+        "moyenne": 15.67
+      },
+      "SVT": {
+        "devoirs": [
+          17.0,
+          14.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.17
+      },
+      "PC": {
+        "devoirs": [
+          19.0,
+          12.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "ANGLAIS": {
+        "devoirs": [
+          12.0,
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.0
+      },
+      "FRANCAIS": {
+        "devoirs": [
+          16.0,
+          13.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.17
+      },
+      "HG": {
+        "devoirs": [
+          13.0,
+          12.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.5
+      }
+    }
+  },
+  {
+    "code": "ALT020",
+    "numero": "54BFH54",
+    "nom": "KOITA",
+    "prenom": "Fatou",
+    "date": "15/11/1978",
+    "classe": "4emeB",
+    "matieres": {
+      "MATH": {
+        "devoirs": [
+          14.0,
+          17.0
+        ],
+        "examen": 16.0,
+        "moyenne": 15.83
+      },
+      "SVT": {
+        "devoirs": [
+          15.0,
+          19.0
+        ],
+        "examen": 13.0,
+        "moyenne": 14.33
+      },
+      "PC": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 19.0,
+        "moyenne": 17.83
+      },
+      "ANGLAIS": {
+        "devoirs": [
+          13.0,
+          19.0
+        ],
+        "examen": 16.0,
+        "moyenne": 16.0
+      },
+      "FRANCAIS": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.83
+      },
+      "HG": {
+        "devoirs": [
+          13.0,
+          14.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.83
+      }
+    }
+  },
+  {
+    "code": "ALT020",
+    "numero": "DF85FUJ",
+    "nom": "LABOU",
+    "prenom": "Pon",
+    "date": "17/06/2002",
+    "classe": "5emeA",
+    "matieres": {
+      "MATH": {
+        "devoirs": [
+          15.0,
+          17.0
+        ],
+        "examen": 20.0,
+        "moyenne": 18.67
+      },
+      "SVT": {
+        "devoirs": [
+          11.0,
+          9.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      },
+      "PC": {
+        "devoirs": [
+          18.0,
+          17.0
+        ],
+        "examen": 5.0,
+        "moyenne": 9.17
+      },
+      "ANGLAIS": {
+        "devoirs": [
+          15.0,
+          12.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.5
+      },
+      "FRANCAIS": {
+        "devoirs": [
+          16.0,
+          11.0
+        ],
+        "examen": 19.0,
+        "moyenne": 17.17
+      },
+      "HG": {
+        "devoirs": [
+          11.0,
+          15.0
+        ],
+        "examen": 18.0,
+        "moyenne": 16.33
+      }
+    }
+  },
+  {
+    "code": "AMD013",
+    "numero": "E7812Z3",
+    "nom": "DIOP",
+    "prenom": "ALY",
+    "date": "12/04/1998",
+    "classe": "5emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          14.0,
+          12.0,
+          10.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "PC": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.5
+      },
+      "Francais": {
+        "devoirs": [
+          14.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.67
+      },
+      "SVT": {
+        "devoirs": [
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.67
+      },
+      "HG": {
+        "devoirs": [
+          12.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.0
+      },
+      "Anglais": {
+        "devoirs": [
+          13.0,
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.17
+      }
+    }
+  },
+  {
+    "code": "AMD013",
+    "numero": "Z781263",
+    "nom": "FAYE",
+    "prenom": "FATOU",
+    "date": "12/04/1997",
+    "classe": "6emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          13.0,
+          12.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "PC": {
+        "devoirs": [
+          10.0,
+          9.0
+        ],
+        "examen": 19.0,
+        "moyenne": 15.83
+      },
+      "Francais": {
+        "devoirs": [
+          4.0
+        ],
+        "examen": 10.0,
+        "moyenne": 8.0
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          19.0
+        ],
+        "examen": 7.0,
+        "moyenne": 9.83
+      },
+      "HG": {
+        "devoirs": [
+          12.0,
+          10.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.0
+      },
+      "Anglais": {
+        "devoirs": [
+          3.0,
+          13.0
+        ],
+        "examen": 15.0,
+        "moyenne": 12.67
+      }
+    }
+  },
+  {
+    "code": "AMD013",
+    "numero": "Z7812Z5",
+    "nom": "DIOUM",
+    "prenom": "ALIOUNE",
+    "date": "12/12/2011",
+    "classe": "3emeB",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          14.5,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "Francais": {
+        "devoirs": [
+          4.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.17
+      },
+      "Anglais": {
+        "devoirs": [
+          13.8
+        ],
+        "examen": 15.0,
+        "moyenne": 14.6
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.33
+      }
+    }
+  },
+  {
+    "code": "AMD013",
+    "numero": "Z7812Z9",
+    "nom": "NDIAYE",
+    "prenom": "MOUSSA",
+    "date": "12/03/1999",
+    "classe": "3emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.5
+      },
+      "Francais": {
+        "devoirs": [
+          7.0,
+          9.0,
+          8.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.33
+      },
+      "Anglais": {
+        "devoirs": [
+          10.5,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.25
+      },
+      "PC": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          11.0,
+          16.0,
+          8.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.92
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.0
+      }
+    }
+  },
+  {
+    "code": "AMD013",
+    "numero": "Z7852Z3",
+    "nom": "FALL",
+    "prenom": "MOUSTAPHA",
+    "date": "09/09/2012",
+    "classe": "6emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.5
+      },
+      "Francais": {
+        "devoirs": [
+          7.0,
+          9.0,
+          8.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.33
+      },
+      "Anglais": {
+        "devoirs": [
+          10.5,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.25
+      },
+      "PC": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          11.0,
+          16.0,
+          8.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.92
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.0
+      }
+    }
+  },
+  {
+    "code": "AMD013",
+    "numero": "Z7812Z7",
+    "nom": "MBAYE",
+    "prenom": "IDRISSA",
+    "date": "15/05/2011",
+    "classe": "4emeA",
+    "matieres": {
+      "SVT": {
+        "devoirs": [
+          15.0,
+          11.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.11
+      },
+      "HG": {
+        "devoirs": [
+          6.0,
+          14.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.0
+      },
+      "Math": {
+        "devoirs": [
+          10.0,
+          12.19,
+          11.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.35
+      },
+      "Francais": {
+        "devoirs": [
+          18.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.83
+      },
+      "Anglais": {
+        "devoirs": [
+          8.15
+        ],
+        "examen": 15.0,
+        "moyenne": 12.72
+      },
+      "PC": {
+        "devoirs": [
+          7.0,
+          11.0,
+          9.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.0
+      }
+    }
+  },
+  {
+    "code": "AMD013",
+    "numero": "Z7312Z3",
+    "nom": "TINE",
+    "prenom": "SEYDOU",
+    "date": "03/09/2000",
+    "classe": "5emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.5
+      },
+      "Francais": {
+        "devoirs": [
+          7.0,
+          12.0,
+          8.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          13.5,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.75
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      }
+    }
+  },
+  {
+    "code": "AMD013",
+    "numero": "Z7832Z3",
+    "nom": "SANE",
+    "prenom": "MOUSSA",
+    "date": "29/12/2001",
+    "classe": "5emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          11.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.67
+      },
+      "PC": {
+        "devoirs": [
+          11.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.67
+      },
+      "ANGLAIS": {
+        "devoirs": [
+          10.0,
+          14.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.0
+      },
+      "SVT": {
+        "devoirs": [
+          11.0,
+          1.0
+        ],
+        "examen": 14.0,
+        "moyenne": 11.33
+      },
+      "HG": {
+        "devoirs": [
+          11.0,
+          13.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.33
+      },
+      "Francais": {
+        "devoirs": [
+          11.0,
+          15.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.33
+      }
+    }
+  },
+  {
+    "code": "AMD013",
+    "numero": "Z8812Z3",
+    "nom": "TOURE",
+    "prenom": "OUMAR",
+    "date": "29/11/2001",
+    "classe": "5emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          9.0,
+          10.5,
+          10.0,
+          13.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.54
+      },
+      "PC": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 19.0,
+        "moyenne": 16.67
+      },
+      "Francais": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.17
+      },
+      "SVT": {
+        "devoirs": [
+          15.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.25
+      },
+      "HG": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.0
+      },
+      "Anglais": {
+        "devoirs": [
+          11.12
+        ],
+        "examen": 15.0,
+        "moyenne": 13.71
+      }
+    }
+  },
+  {
+    "code": "AMG015",
+    "numero": "SONA001",
+    "nom": "FAYE",
+    "prenom": "FATOU",
+    "date": "12/04/1993",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "AMG015",
+    "numero": "SONA002",
+    "nom": "GAYE",
+    "prenom": "THIERNO",
+    "date": "14/02/1992",
+    "classe": "6emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "AMG015",
+    "numero": "SONA003",
+    "nom": "DIOP",
+    "prenom": "YOUSSOU",
+    "date": "12/06/1994",
+    "classe": "5emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "AMG015",
+    "numero": "SONA004",
+    "nom": "WAGNE",
+    "prenom": "PETIT",
+    "date": "12/07/1995",
+    "classe": "5emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "AMG015",
+    "numero": "SONA005",
+    "nom": "CISSE",
+    "prenom": "GALAYE",
+    "date": "04/03/1995",
+    "classe": "4emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "AMG015",
+    "numero": "SONA006",
+    "nom": "GOMIS",
+    "prenom": "PATA",
+    "date": "01/06/1997",
+    "classe": "4emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "AMG015",
+    "numero": "SONA007",
+    "nom": "SANE",
+    "prenom": "BALLA",
+    "date": "09/09/1999",
+    "classe": "3emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "AMG015",
+    "numero": "SONA008",
+    "nom": "SAGNA",
+    "prenom": "SADIO",
+    "date": "06/06/1999",
+    "classe": "3emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "AMG015",
+    "numero": "SONA009",
+    "nom": "NIANG",
+    "prenom": "MAREME",
+    "date": "12/12/1996",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 5.0,
+        "moyenne": 4.5
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          15.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      },
+      "PC": {
+        "devoirs": [
+          4.0,
+          3.0
+        ],
+        "examen": 7.0,
+        "moyenne": 5.83
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "HG": {
+        "devoirs": [
+          16.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.5
+      }
+    }
+  },
+  {
+    "code": "AMK016",
+    "numero": "A7723ML",
+    "nom": "Kane",
+    "prenom": "Moussa",
+    "date": "29/12/2001",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          14.0,
+          12.0,
+          10.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "PC": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.5
+      },
+      "Francais": {
+        "devoirs": [
+          14.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.67
+      },
+      "SVT": {
+        "devoirs": [
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.67
+      },
+      "HG": {
+        "devoirs": [
+          12.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.0
+      },
+      "Anglais": {
+        "devoirs": [
+          13.0,
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.17
+      }
+    }
+  },
+  {
+    "code": "AMK016",
+    "numero": "Z7812Z3",
+    "nom": "Konimba",
+    "prenom": "Mousona",
+    "date": "12/12/2009",
+    "classe": "3emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          12.0,
+          10.0
+        ],
+        "examen": 19.0,
+        "moyenne": 16.33
+      },
+      "PC": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "Francais": {
+        "devoirs": [
+          14.0,
+          15.0,
+          12.0
+        ],
+        "examen": 19.0,
+        "moyenne": 17.22
+      },
+      "SVT": {
+        "devoirs": [
+          16.0,
+          18.0
+        ],
+        "examen": 17.0,
+        "moyenne": 17.0
+      },
+      "HG": {
+        "devoirs": [
+          18.0
+        ],
+        "examen": 14.0,
+        "moyenne": 15.33
+      },
+      "Anglais": {
+        "devoirs": [
+          18.0
+        ],
+        "examen": 11.0,
+        "moyenne": 13.33
+      }
+    }
+  },
+  {
+    "code": "AMK016",
+    "numero": "M770231",
+    "nom": "Ilimani",
+    "prenom": "Mustapha",
+    "date": "12/04/1997",
+    "classe": "3emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          12.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.67
+      },
+      "PC": {
+        "devoirs": [
+          13.0,
+          19.0
+        ],
+        "examen": 10.0,
+        "moyenne": 12.0
+      },
+      "Francais": {
+        "devoirs": [
+          19.0,
+          12.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.83
+      },
+      "SVT": {
+        "devoirs": [
+          11.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 15.83
+      },
+      "HG": {
+        "devoirs": [
+          11.0,
+          13.0
+        ],
+        "examen": 19.0,
+        "moyenne": 16.67
+      },
+      "Anglais": {
+        "devoirs": [
+          11.0,
+          19.0
+        ],
+        "examen": 18.0,
+        "moyenne": 17.0
+      }
+    }
+  },
+  {
+    "code": "AMK016",
+    "numero": "JH23GH3",
+    "nom": "Loum",
+    "prenom": "Mamadou",
+    "date": "12/12/2011",
+    "classe": "3emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          13.0,
+          12.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "PC": {
+        "devoirs": [
+          10.0,
+          9.0
+        ],
+        "examen": 19.0,
+        "moyenne": 15.83
+      },
+      "Francais": {
+        "devoirs": [
+          4.0
+        ],
+        "examen": 10.0,
+        "moyenne": 8.0
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          19.0
+        ],
+        "examen": 7.0,
+        "moyenne": 9.83
+      },
+      "HG": {
+        "devoirs": [
+          12.0,
+          10.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.0
+      },
+      "Anglais": {
+        "devoirs": [
+          3.0,
+          13.0
+        ],
+        "examen": 15.0,
+        "moyenne": 12.67
+      }
+    }
+  },
+  {
+    "code": "AMK016",
+    "numero": "SX34AZ2",
+    "nom": "Gaye",
+    "prenom": "Souleyni",
+    "date": "12/03/1999",
+    "classe": "6emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          19.0,
+          10.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.0
+      },
+      "PC": {
+        "devoirs": [
+          10.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.83
+      },
+      "Francais": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      },
+      "SVT": {
+        "devoirs": [
+          16.0,
+          10.0
+        ],
+        "examen": 17.0,
+        "moyenne": 15.67
+      },
+      "HG": {
+        "devoirs": [
+          2.0,
+          16.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.5
+      }
+    }
+  },
+  {
+    "code": "AMK016",
+    "numero": "E9D45JJ",
+    "nom": "Hann",
+    "prenom": "Cheikh",
+    "date": "09/09/2012",
+    "classe": "3emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          13.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.67
+      },
+      "PC": {
+        "devoirs": [
+          13.0,
+          19.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.67
+      },
+      "Francais": {
+        "devoirs": [
+          12.0,
+          14.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.67
+      },
+      "SVT": {
+        "devoirs": [
+          15.0,
+          19.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.67
+      },
+      "HG": {
+        "devoirs": [
+          10.0,
+          18.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.33
+      },
+      "Anglais": {
+        "devoirs": [
+          11.0,
+          12.0,
+          11.0
+        ],
+        "examen": 20.0,
+        "moyenne": 17.11
+      }
+    }
+  },
+  {
+    "code": "AMK016",
+    "numero": "HIE938J",
+    "nom": "Kane",
+    "prenom": "Aliou",
+    "date": "15/05/2011",
+    "classe": "6emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          20.0,
+          20.0,
+          20.0
+        ],
+        "examen": 20.0,
+        "moyenne": 20.0
+      },
+      "PC": {
+        "devoirs": [
+          20.0,
+          20.0
+        ],
+        "examen": 20.0,
+        "moyenne": 20.0
+      },
+      "Francais": {
+        "devoirs": [
+          14.0,
+          12.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.33
+      },
+      "SVT": {
+        "devoirs": [
+          19.0,
+          19.0
+        ],
+        "examen": 19.0,
+        "moyenne": 19.0
+      },
+      "HG": {
+        "devoirs": [
+          7.0,
+          1.0
+        ],
+        "examen": 10.0,
+        "moyenne": 8.0
+      },
+      "Anglais": {
+        "devoirs": [
+          6.0,
+          13.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.83
+      }
+    }
+  },
+  {
+    "code": "AMK016",
+    "numero": "23JHNB2",
+    "nom": "Ngimbona",
+    "prenom": "Charles",
+    "date": "03/09/2000",
+    "classe": "3emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          11.0,
+          10.0,
+          9.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      },
+      "PC": {
+        "devoirs": [
+          11.0,
+          11.0,
+          9.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.78
+      },
+      "Francais": {
+        "devoirs": [
+          18.0,
+          19.0,
+          19.0
+        ],
+        "examen": 17.0,
+        "moyenne": 17.56
+      },
+      "SVT": {
+        "devoirs": [
+          1.0
+        ],
+        "examen": 11.0,
+        "moyenne": 7.67
+      },
+      "HG": {
+        "devoirs": [
+          19.0
+        ],
+        "examen": 19.0,
+        "moyenne": 19.0
+      },
+      "Anglais": {
+        "devoirs": [
+          19.0,
+          17.0
+        ],
+        "examen": 19.0,
+        "moyenne": 18.67
+      }
+    }
+  },
+  {
+    "code": "AMK016",
+    "numero": "HJ293D4",
+    "nom": "Ikouna",
+    "prenom": "Mbalanga",
+    "date": "01/01/2001",
+    "classe": "3emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          13.0,
+          12.0,
+          10.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.89
+      },
+      "PC": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.5
+      },
+      "Francais": {
+        "devoirs": [
+          14.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.67
+      },
+      "SVT": {
+        "devoirs": [
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.67
+      },
+      "HG": {
+        "devoirs": [
+          12.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.0
+      },
+      "Anglais": {
+        "devoirs": [
+          13.0,
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.17
+      }
+    }
+  },
+  {
+    "code": "AOD010",
+    "numero": "XSDEF12",
+    "nom": "gueye",
+    "prenom": "fatou",
+    "date": "03/04/2005",
+    "classe": "4emeB",
+    "matieres": {
+      "HG": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.33
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          10.0
+        ],
+        "examen": 8.0,
+        "moyenne": 9.0
+      },
+      "Francais": {
+        "devoirs": [
+          14.0,
+          11.0
+        ],
+        "examen": 4.0,
+        "moyenne": 6.83
+      },
+      "PC": {
+        "devoirs": [
+          10.0,
+          4.0
+        ],
+        "examen": 9.0,
+        "moyenne": 8.33
+      },
+      "Math": {
+        "devoirs": [
+          18.0
+        ],
+        "examen": 19.0,
+        "moyenne": 18.67
+      },
+      "Anglais": {
+        "devoirs": [
+          4.0,
+          8.0
+        ],
+        "examen": 16.0,
+        "moyenne": 12.67
+      }
+    }
+  },
+  {
+    "code": "AOD010",
+    "numero": "DEGLAC4",
+    "nom": "fall",
+    "prenom": "saly",
+    "date": "06/12/2007",
+    "classe": "6emeB",
+    "matieres": {
+      "HG": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.67
+      },
+      "SVT": {
+        "devoirs": [
+          14.0,
+          13.0
+        ],
+        "examen": 18.0,
+        "moyenne": 16.5
+      },
+      "Francais": {
+        "devoirs": [
+          11.0,
+          12.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.17
+      },
+      "PC": {
+        "devoirs": [
+          12.0,
+          14.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.0
+      },
+      "Math": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          14.0,
+          18.0
+        ],
+        "examen": 1.0,
+        "moyenne": 6.0
+      }
+    }
+  },
+  {
+    "code": "AOD010",
+    "numero": "DZFXML5",
+    "nom": "Lo",
+    "prenom": "amy",
+    "date": "08/03/2003",
+    "classe": "3emeA",
+    "matieres": {
+      "HG": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.67
+      },
+      "SVT": {
+        "devoirs": [
+          14.0,
+          13.0
+        ],
+        "examen": 18.0,
+        "moyenne": 16.5
+      },
+      "Francais": {
+        "devoirs": [
+          11.0,
+          12.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.17
+      },
+      "PC": {
+        "devoirs": [
+          12.0,
+          14.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.0
+      },
+      "Math": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          14.0,
+          18.0
+        ],
+        "examen": 1.0,
+        "moyenne": 6.0
+      }
+    }
+  },
+  {
+    "code": "AOD010",
+    "numero": "DZLSWQ7",
+    "nom": "sambe",
+    "prenom": "salif",
+    "date": "18/03/2004",
+    "classe": "3emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          14.0,
+          10.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "PC": {
+        "devoirs": [
+          14.0,
+          19.0
+        ],
+        "examen": 12.0,
+        "moyenne": 13.5
+      },
+      "ANGLAIS": {
+        "devoirs": [
+          10.0,
+          14.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.0
+      },
+      "SVT": {
+        "devoirs": [
+          15.0,
+          16.0,
+          11.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.0
+      },
+      "HG": {
+        "devoirs": [
+          12.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.0
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          14.0
+        ],
+        "examen": 18.0,
+        "moyenne": 16.83
+      }
+    }
+  },
+  {
+    "code": "AOD010",
+    "numero": "JHDHRE8",
+    "nom": "sene",
+    "prenom": "jeannette",
+    "date": "20/12/2007",
+    "classe": "6emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          11.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.67
+      },
+      "PC": {
+        "devoirs": [
+          11.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.67
+      },
+      "ANGLAIS": {
+        "devoirs": [
+          10.0,
+          14.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.0
+      },
+      "SVT": {
+        "devoirs": [
+          11.0,
+          1.0
+        ],
+        "examen": 14.0,
+        "moyenne": 11.33
+      },
+      "HG": {
+        "devoirs": [
+          11.0,
+          13.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.33
+      },
+      "Francais": {
+        "devoirs": [
+          11.0,
+          15.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.33
+      }
+    }
+  },
+  {
+    "code": "AOD010",
+    "numero": "LSXNEB0",
+    "nom": "gueye",
+    "prenom": "modou",
+    "date": "03/01/2002",
+    "classe": "3emeB",
+    "matieres": {
+      "SVT": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.33
+      },
+      "PC": {
+        "devoirs": [
+          19.0
+        ],
+        "examen": 20.0,
+        "moyenne": 19.67
+      },
+      "Anglais": {
+        "devoirs": [
+          5.0,
+          9.0
+        ],
+        "examen": 9.0,
+        "moyenne": 8.33
+      },
+      "Math": {
+        "devoirs": [
+          18.0,
+          16.0
+        ],
+        "examen": 17.0,
+        "moyenne": 17.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      },
+      "Francais": {
+        "devoirs": [
+          13.12
+        ],
+        "examen": 10.0,
+        "moyenne": 11.04
+      }
+    }
+  },
+  {
+    "code": "ASK017",
+    "numero": "OKYLDC8",
+    "nom": "KANE",
+    "prenom": "Ousmane",
+    "date": "07/12/2007",
+    "classe": "4emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          12.0,
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.0
+      },
+      "SVT": {
+        "devoirs": [
+          9.0,
+          10.0
+        ],
+        "examen": 8.0,
+        "moyenne": 8.5
+      },
+      "PC": {
+        "devoirs": [
+          6.0,
+          10.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.33
+      },
+      "Français": {
+        "devoirs": [
+          15.0,
+          14.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.83
+      },
+      "Anglais": {
+        "devoirs": [
+          17.0,
+          16.0
+        ],
+        "examen": 19.0,
+        "moyenne": 18.17
+      }
+    }
+  },
+  {
+    "code": "ASK017",
+    "numero": "DKBLMT7",
+    "nom": "KONATE",
+    "prenom": "Djiby",
+    "date": "09/06/2010",
+    "classe": "6emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          17.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.67
+      },
+      "HG": {
+        "devoirs": [
+          15.0,
+          10.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.5
+      },
+      "SVT": {
+        "devoirs": [
+          14.0,
+          15.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.83
+      },
+      "Français": {
+        "devoirs": [
+          14.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.67
+      },
+      "Anglais": {
+        "devoirs": [
+          19.0
+        ],
+        "examen": 17.0,
+        "moyenne": 17.67
+      }
+    }
+  },
+  {
+    "code": "ASK017",
+    "numero": "CMGBDK9",
+    "nom": "MENDY",
+    "prenom": "Christelle",
+    "date": "11/10/2006",
+    "classe": "3emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          14.0,
+          18.0
+        ],
+        "examen": 16.0,
+        "moyenne": 16.0
+      },
+      "PC": {
+        "devoirs": [
+          17.0
+        ],
+        "examen": 16.0,
+        "moyenne": 16.33
+      },
+      "SVT": {
+        "devoirs": [
+          15.0
+        ],
+        "examen": 19.0,
+        "moyenne": 17.67
+      },
+      "Français": {
+        "devoirs": [
+          11.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.0
+      },
+      "HG": {
+        "devoirs": [
+          8.0,
+          5.0
+        ],
+        "examen": 12.0,
+        "moyenne": 10.17
+      },
+      "Anglais": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.33
+      }
+    }
+  },
+  {
+    "code": "ASK017",
+    "numero": "YOSADK1",
+    "nom": "OUEDRAOGO",
+    "prenom": "Yankoba",
+    "date": "15/02/2009",
+    "classe": "5emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.33
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          11.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.17
+      },
+      "HG": {
+        "devoirs": [
+          13.0,
+          10.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.83
+      },
+      "Anglais": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 17.0,
+        "moyenne": 15.33
+      },
+      "Français": {
+        "devoirs": [
+          18.0,
+          14.0
+        ],
+        "examen": 16.0,
+        "moyenne": 16.0
+      }
+    }
+  },
+  {
+    "code": "ASK017",
+    "numero": "SFSADK2",
+    "nom": "FALL",
+    "prenom": "Salimata",
+    "date": "02/08/2010",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 9.0,
+        "moyenne": 10.33
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          16.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.33
+      },
+      "HG": {
+        "devoirs": [
+          17.0,
+          14.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.17
+      },
+      "Anglais": {
+        "devoirs": [
+          18.0
+        ],
+        "examen": 17.0,
+        "moyenne": 17.33
+      },
+      "Français": {
+        "devoirs": [
+          18.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.83
+      }
+    }
+  },
+  {
+    "code": "ASK017",
+    "numero": "MDMTDK9",
+    "nom": "DIOP",
+    "prenom": "Mamy",
+    "date": "25/09/2005",
+    "classe": "3emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          9.0,
+          11.0,
+          13.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.0
+      },
+      "PC": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.0
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          15.0,
+          14.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.33
+      },
+      "Anglais": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.67
+      },
+      "Français": {
+        "devoirs": [
+          11.0,
+          13.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.33
+      }
+    }
+  },
+  {
+    "code": "ASK017",
+    "numero": "MTBFCA2",
+    "nom": "TAPSOBA",
+    "prenom": "Mounkoudy",
+    "date": "08/12/2008",
+    "classe": "4emeB",
+    "matieres": {
+      "Anglais": {
+        "devoirs": [
+          12.0,
+          8.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.0
+      },
+      "Math": {
+        "devoirs": [
+          15.0,
+          18.0
+        ],
+        "examen": 20.0,
+        "moyenne": 18.83
+      },
+      "PC": {
+        "devoirs": [
+          10.0,
+          17.0
+        ],
+        "examen": 16.0,
+        "moyenne": 15.17
+      },
+      "SVT": {
+        "devoirs": [
+          19.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 17.0
+      },
+      "HG": {
+        "devoirs": [
+          11.0,
+          14.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.83
+      },
+      "Français": {
+        "devoirs": [
+          6.0,
+          9.0
+        ],
+        "examen": 11.0,
+        "moyenne": 9.83
+      }
+    }
+  },
+  {
+    "code": "ASK017",
+    "numero": "DDPADK7",
+    "nom": "DIA",
+    "prenom": "Dieynaba",
+    "date": "01/05/2008",
+    "classe": "4emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          10.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.33
+      },
+      "PC": {
+        "devoirs": [
+          12.0,
+          10.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.67
+      },
+      "SVT": {
+        "devoirs": [
+          5.0,
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.17
+      },
+      "Français": {
+        "devoirs": [
+          12.0,
+          16.0
+        ],
+        "examen": 14.0,
+        "moyenne": 14.0
+      },
+      "Anglais": {
+        "devoirs": [
+          14.0,
+          16.0
+        ],
+        "examen": 19.0,
+        "moyenne": 17.67
+      }
+    }
+  },
+  {
+    "code": "ASK017",
+    "numero": "ADBMML5",
+    "nom": "DIOGOSOUMA",
+    "prenom": "Aliou",
+    "date": "03/10/2009",
+    "classe": "5emeB",
+    "matieres": {
+      "Français": {
+        "devoirs": [
+          15.0
+        ],
+        "examen": 12.0,
+        "moyenne": 13.0
+      },
+      "Anglais": {
+        "devoirs": [
+          16.0,
+          10.0
+        ],
+        "examen": 16.0,
+        "moyenne": 15.0
+      },
+      "HG": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 18.0,
+        "moyenne": 16.0
+      },
+      "SVT": {
+        "devoirs": [
+          17.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.67
+      },
+      "Math": {
+        "devoirs": [
+          15.0,
+          13.0
+        ],
+        "examen": 18.0,
+        "moyenne": 16.67
+      }
+    }
+  },
+  {
+    "code": "ASK017",
+    "numero": "ABHLMY1",
+    "nom": "BAOBEY",
+    "prenom": "Angelline",
+    "date": "18/03/2006",
+    "classe": "3emeA",
+    "matieres": {
+      "SVT": {
+        "devoirs": [
+          16.0,
+          10.0
+        ],
+        "examen": 17.0,
+        "moyenne": 15.67
+      },
+      "Math": {
+        "devoirs": [
+          18.0,
+          15.0
+        ],
+        "examen": 19.0,
+        "moyenne": 18.17
+      },
+      "PC": {
+        "devoirs": [
+          17.0,
+          12.0
+        ],
+        "examen": 17.0,
+        "moyenne": 16.17
+      },
+      "Français": {
+        "devoirs": [
+          15.0,
+          13.0
+        ],
+        "examen": 16.0,
+        "moyenne": 15.33
+      },
+      "HG": {
+        "devoirs": [
+          12.0,
+          10.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.67
+      },
+      "Anglais": {
+        "devoirs": [
+          14.0,
+          18.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.33
+      }
+    }
+  },
+  {
+    "code": "BAD008",
+    "numero": "AF32IBC",
+    "nom": "FALL",
+    "prenom": "OUSSEYOU",
+    "date": "03/07/2000",
+    "classe": "3emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          13.0,
+          15.0
+        ],
+        "examen": 16.0,
+        "moyenne": 15.33
+      },
+      "Francais": {
+        "devoirs": [
+          10.0,
+          14.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.67
+      },
+      "Anglais": {
+        "devoirs": [
+          12.0,
+          9.0,
+          15.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.33
+      },
+      "PC": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.0
+      },
+      "SVT": {
+        "devoirs": [
+          14.0,
+          9.0,
+          12.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.56
+      },
+      "HG": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.33
+      }
+    }
+  },
+  {
+    "code": "BAD008",
+    "numero": "M60GRTL",
+    "nom": "TINE",
+    "prenom": "SOKHNA",
+    "date": "25/02/2005",
+    "classe": "4emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          8.0,
+          13.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.17
+      },
+      "Francais": {
+        "devoirs": [
+          10.0,
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      },
+      "Anglais": {
+        "devoirs": [
+          10.0,
+          11.0,
+          9.0
+        ],
+        "examen": 7.0,
+        "moyenne": 8.0
+      },
+      "PC": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 8.0,
+        "moyenne": 8.67
+      },
+      "SVT": {
+        "devoirs": [
+          11.0,
+          9.0,
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.67
+      }
+    }
+  },
+  {
+    "code": "BAD008",
+    "numero": "QNXKW09",
+    "nom": "SINE",
+    "prenom": "MARIEME",
+    "date": "29/08/2008",
+    "classe": "5emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          8.0,
+          12.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.33
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          10.0
+        ],
+        "examen": 9.0,
+        "moyenne": 10.17
+      },
+      "Anglais": {
+        "devoirs": [
+          12.0,
+          9.0,
+          12.0
+        ],
+        "examen": 7.0,
+        "moyenne": 8.33
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.67
+      },
+      "SVT": {
+        "devoirs": [
+          8.0,
+          11.0,
+          10.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.22
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      }
+    }
+  },
+  {
+    "code": "BAD008",
+    "numero": "G2NXW1L",
+    "nom": "DIOUF",
+    "prenom": "MOUSTAPHA",
+    "date": "05/07/2001",
+    "classe": "4emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          14.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "Francais": {
+        "devoirs": [
+          10.0,
+          12.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          9.0,
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.5
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.67
+      },
+      "SVT": {
+        "devoirs": [
+          13.0,
+          12.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.17
+      },
+      "HG": {
+        "devoirs": [
+          15.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.67
+      }
+    }
+  },
+  {
+    "code": "BAD008",
+    "numero": "UPNCG78",
+    "nom": "KA",
+    "prenom": "ALIOU",
+    "date": "10/05/2009",
+    "classe": "3emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          9.0,
+          10.5,
+          10.0,
+          13.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.54
+      },
+      "PC": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 19.0,
+        "moyenne": 16.67
+      },
+      "Francais": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.17
+      },
+      "SVT": {
+        "devoirs": [
+          15.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.25
+      },
+      "HG": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.0
+      },
+      "Anglais": {
+        "devoirs": [
+          11.12
+        ],
+        "examen": 15.0,
+        "moyenne": 13.71
+      }
+    }
+  },
+  {
+    "code": "BAD008",
+    "numero": "WYI96BT",
+    "nom": "BA",
+    "prenom": "MOUSSA",
+    "date": "05/11/2010",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          12.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.67
+      },
+      "Francais": {
+        "devoirs": [
+          17.0,
+          9.0,
+          8.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.11
+      },
+      "Anglais": {
+        "devoirs": [
+          10.0,
+          7.0,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 12.89
+      },
+      "PC": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          11.0,
+          16.0,
+          8.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.92
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.0
+      }
+    }
+  },
+  {
+    "code": "BAD008",
+    "numero": "WYI96BT",
+    "nom": "DIALLO",
+    "prenom": "SEYNABOU",
+    "date": "16/02/2003",
+    "classe": "5emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          8.0,
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.17
+      },
+      "Francais": {
+        "devoirs": [
+          12.0,
+          14.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.0
+      },
+      "Anglais": {
+        "devoirs": [
+          12.0,
+          9.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.83
+      },
+      "PC": {
+        "devoirs": [
+          16.0
+        ],
+        "examen": 12.0,
+        "moyenne": 13.33
+      },
+      "SVT": {
+        "devoirs": [
+          14.0,
+          9.0,
+          11.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.11
+      },
+      "HG": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.33
+      }
+    }
+  },
+  {
+    "code": "BAD008",
+    "numero": "FRTX54U",
+    "nom": "NDIAYE",
+    "prenom": "FATOU",
+    "date": "22/07/2005",
+    "classe": "4emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          12.0,
+          7.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.83
+      },
+      "Francais": {
+        "devoirs": [
+          13.0,
+          14.0
+        ],
+        "examen": 9.0,
+        "moyenne": 10.5
+      },
+      "Anglais": {
+        "devoirs": [
+          9.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.33
+      },
+      "PC": {
+        "devoirs": [
+          15.0
+        ],
+        "examen": 12.0,
+        "moyenne": 13.0
+      },
+      "SVT": {
+        "devoirs": [
+          11.0,
+          10.0,
+          12.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.33
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 14.0,
+        "moyenne": 12.67
+      }
+    }
+  },
+  {
+    "code": "BAD008",
+    "numero": "LJQC67L",
+    "nom": "WADE",
+    "prenom": "ASTOU",
+    "date": "12/12/2007",
+    "classe": "3emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          13.0,
+          15.0
+        ],
+        "examen": 16.0,
+        "moyenne": 15.33
+      },
+      "Francais": {
+        "devoirs": [
+          10.0,
+          14.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.67
+      },
+      "Anglais": {
+        "devoirs": [
+          12.0,
+          9.0,
+          19.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.78
+      },
+      "PC": {
+        "devoirs": [
+          13.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.0
+      },
+      "SVT": {
+        "devoirs": [
+          14.0,
+          9.0,
+          12.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.56
+      },
+      "HG": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.67
+      }
+    }
+  },
+  {
+    "code": "BAD008",
+    "numero": "KFPB32H",
+    "nom": "SY",
+    "prenom": "ADJA",
+    "date": "02/08/2002",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.5
+      },
+      "Francais": {
+        "devoirs": [
+          7.0,
+          9.0,
+          8.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.33
+      },
+      "Anglais": {
+        "devoirs": [
+          10.5,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.25
+      },
+      "PC": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          11.0,
+          16.0,
+          8.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.92
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.0
+      }
+    }
+  },
+  {
+    "code": "BAF013",
+    "numero": "GH43RTU",
+    "nom": "Ndao",
+    "prenom": "Aram",
+    "date": "16/02/2000",
+    "classe": "3emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.5
+      },
+      "Francais": {
+        "devoirs": [
+          7.0,
+          12.0,
+          8.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          13.5,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.75
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      }
+    }
+  },
+  {
+    "code": "BAF013",
+    "numero": "PLM56DS",
+    "nom": "Gomis",
+    "prenom": "Pipo",
+    "date": "16/03/1998",
+    "classe": "4emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          8.0,
+          7.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.17
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          12.0,
+          9.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.33
+      },
+      "Anglais": {
+        "devoirs": [
+          13.15,
+          19.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.36
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "SVT": {
+        "devoirs": [
+          2.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.17
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 18.0,
+        "moyenne": 15.33
+      }
+    }
+  },
+  {
+    "code": "BAF013",
+    "numero": "GF34KHS",
+    "nom": "Diouf",
+    "prenom": "Ousseynou",
+    "date": "03/12/1992",
+    "classe": "5emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          18.0,
+          17.0
+        ],
+        "examen": 10.0,
+        "moyenne": 12.5
+      },
+      "Francais": {
+        "devoirs": [
+          5.0,
+          13.0,
+          9.0
+        ],
+        "examen": 14.0,
+        "moyenne": 12.33
+      },
+      "Anglais": {
+        "devoirs": [
+          12.5,
+          10.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.08
+      },
+      "PC": {
+        "devoirs": [
+          17.0
+        ],
+        "examen": 9.0,
+        "moyenne": 11.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          19.0,
+          15.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.75
+      },
+      "HG": {
+        "devoirs": [
+          16.0
+        ],
+        "examen": 18.0,
+        "moyenne": 17.33
+      }
+    }
+  },
+  {
+    "code": "BAF013",
+    "numero": "JHGF7F5",
+    "nom": "Diop",
+    "prenom": "Elimane",
+    "date": "12/01/2003",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          9.0,
+          17.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.0
+      },
+      "Francais": {
+        "devoirs": [
+          12.0,
+          13.0,
+          8.0
+        ],
+        "examen": 18.0,
+        "moyenne": 15.67
+      },
+      "Anglais": {
+        "devoirs": [
+          3.5,
+          10.0
+        ],
+        "examen": 15.0,
+        "moyenne": 12.25
+      },
+      "PC": {
+        "devoirs": [
+          17.0
+        ],
+        "examen": 19.0,
+        "moyenne": 18.33
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          19.0,
+          16.0,
+          13.0
+        ],
+        "examen": 12.0,
+        "moyenne": 13.0
+      },
+      "HG": {
+        "devoirs": [
+          14.0
+        ],
+        "examen": 18.0,
+        "moyenne": 16.67
+      }
+    }
+  },
+  {
+    "code": "BAF013",
+    "numero": "RED76BH",
+    "nom": "Cissé",
+    "prenom": "Babacar",
+    "date": "03/06/2005",
+    "classe": "3emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          8.0,
+          7.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.17
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          12.0,
+          9.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.33
+      },
+      "Anglais": {
+        "devoirs": [
+          13.15,
+          19.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.36
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "SVT": {
+        "devoirs": [
+          2.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.17
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 18.0,
+        "moyenne": 15.33
+      }
+    }
+  },
+  {
+    "code": "BAF013",
+    "numero": "GF69LBC",
+    "nom": "Ba",
+    "prenom": "Abdoulaye",
+    "date": "09/02/1992",
+    "classe": "3emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          18.0,
+          17.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.83
+      },
+      "Francais": {
+        "devoirs": [
+          10.0,
+          1.0,
+          9.0
+        ],
+        "examen": 12.0,
+        "moyenne": 10.22
+      },
+      "Anglais": {
+        "devoirs": [
+          10.11,
+          18.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.69
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          13.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.75
+      },
+      "HG": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 19.0,
+        "moyenne": 16.67
+      }
+    }
+  },
+  {
+    "code": "BAF013",
+    "numero": "ML09RDS",
+    "nom": "Diallo",
+    "prenom": "Alioune",
+    "date": "08/07/1993",
+    "classe": "4emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          9.0,
+          7.0
+        ],
+        "examen": 11.0,
+        "moyenne": 10.0
+      },
+      "Francais": {
+        "devoirs": [
+          11.0,
+          13.0,
+          19.0
+        ],
+        "examen": 4.0,
+        "moyenne": 7.44
+      },
+      "Anglais": {
+        "devoirs": [
+          12.11,
+          10.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.69
+      },
+      "PC": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.33
+      },
+      "SVT": {
+        "devoirs": [
+          13.0,
+          7.0,
+          15.0,
+          16.0
+        ],
+        "examen": 2.0,
+        "moyenne": 5.58
+      },
+      "HG": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.33
+      }
+    }
+  },
+  {
+    "code": "BAF013",
+    "numero": "NBV76RD",
+    "nom": "Gueye",
+    "prenom": "Abdalah",
+    "date": "01/01/1992",
+    "classe": "4emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          12.0,
+          17.0
+        ],
+        "examen": 0.0,
+        "moyenne": 4.83
+      },
+      "Francais": {
+        "devoirs": [
+          12.0,
+          17.0,
+          12.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.56
+      },
+      "Anglais": {
+        "devoirs": [
+          13.15,
+          19.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.36
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 19.0,
+        "moyenne": 16.33
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          8.0,
+          12.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.58
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 18.0,
+        "moyenne": 15.33
+      }
+    }
+  },
+  {
+    "code": "BAF013",
+    "numero": "NB675DH",
+    "nom": "Dia",
+    "prenom": "Hawa",
+    "date": "07/07/1997",
+    "classe": "5emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          15.0,
+          12.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.17
+      },
+      "Francais": {
+        "devoirs": [
+          13.0,
+          16.0,
+          19.0
+        ],
+        "examen": 19.0,
+        "moyenne": 18.0
+      },
+      "Anglais": {
+        "devoirs": [
+          12.13,
+          18.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.02
+      },
+      "PC": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 19.0,
+        "moyenne": 16.67
+      },
+      "SVT": {
+        "devoirs": [
+          2.0,
+          9.0,
+          17.0,
+          11.0
+        ],
+        "examen": 2.0,
+        "moyenne": 4.58
+      },
+      "HG": {
+        "devoirs": [
+          1.0
+        ],
+        "examen": 15.0,
+        "moyenne": 10.33
+      }
+    }
+  },
+  {
+    "code": "BAF013",
+    "numero": "MLHF65D",
+    "nom": "Guissé",
+    "prenom": "Penda",
+    "date": "04/04/1994",
+    "classe": "3emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          8.0,
+          7.0
+        ],
+        "examen": 10.0,
+        "moyenne": 9.17
+      },
+      "Francais": {
+        "devoirs": [
+          15.0,
+          12.0,
+          9.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.33
+      },
+      "Anglais": {
+        "devoirs": [
+          13.15,
+          19.0
+        ],
+        "examen": 15.0,
+        "moyenne": 15.36
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "SVT": {
+        "devoirs": [
+          2.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.17
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 18.0,
+        "moyenne": 15.33
+      }
+    }
+  },
+  {
+    "code": "BMP019",
+    "numero": "IHFK34G",
+    "nom": "DIOUM",
+    "prenom": "Harry",
+    "date": "14/01/1995",
+    "classe": "5emeA",
+    "matieres": {
+      "SVT": {
+        "devoirs": [
+          12.0,
+          19.0,
+          1.0
+        ],
+        "examen": 4.0,
+        "moyenne": 6.22
+      },
+      "HG": {
+        "devoirs": [
+          15.0
+        ],
+        "examen": 11.0,
+        "moyenne": 12.33
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          14.5,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "Francais": {
+        "devoirs": [
+          18.0,
+          11.0
+        ],
+        "examen": 10.0,
+        "moyenne": 11.5
+      },
+      "Anglais": {
+        "devoirs": [
+          17.5
+        ],
+        "examen": 15.0,
+        "moyenne": 15.83
+      },
+      "PC": {
+        "devoirs": [
+          3.0,
+          15.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.0
+      }
+    }
+  },
+  {
+    "code": "BMP019",
+    "numero": "3FR5IJ9",
+    "nom": "DIALLO",
+    "prenom": "Hermione",
+    "date": "12/08/2006",
+    "classe": "4emeB",
+    "matieres": {
+      "SVT": {
+        "devoirs": [
+          15.0,
+          11.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.11
+      },
+      "HG": {
+        "devoirs": [
+          6.0,
+          14.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.0
+      },
+      "Math": {
+        "devoirs": [
+          10.0,
+          12.19,
+          11.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.35
+      },
+      "Francais": {
+        "devoirs": [
+          18.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.83
+      },
+      "Anglais": {
+        "devoirs": [
+          8.15
+        ],
+        "examen": 15.0,
+        "moyenne": 12.72
+      },
+      "PC": {
+        "devoirs": [
+          7.0,
+          11.0,
+          9.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.0
+      }
+    }
+  },
+  {
+    "code": "BMP019",
+    "numero": "PM12NG7",
+    "nom": "DIOP",
+    "prenom": "Marième",
+    "date": "19/08/1997",
+    "classe": "3emeA",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          15.0,
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 10.33
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          14.5,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "Francais": {
+        "devoirs": [
+          4.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.17
+      },
+      "Anglais": {
+        "devoirs": [
+          13.8
+        ],
+        "examen": 15.0,
+        "moyenne": 14.6
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.33
+      }
+    }
+  },
+  {
+    "code": "BMP019",
+    "numero": "89HY6F5",
+    "nom": "DIALLO",
+    "prenom": "Ronald",
+    "date": "09/05/2000",
+    "classe": "6emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          14.5
+        ],
+        "examen": 16.0,
+        "moyenne": 14.75
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "Francais": {
+        "devoirs": [
+          4.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.17
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      },
+      "Anglais": {
+        "devoirs": [
+          13.5
+        ],
+        "examen": 15.0,
+        "moyenne": 14.5
+      }
+    }
+  },
+  {
+    "code": "BMP019",
+    "numero": "5D7BKJ2",
+    "nom": "FALL",
+    "prenom": "Magui",
+    "date": "30/08/2008",
+    "classe": "3emeB",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          11.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.5
+      },
+      "Francais": {
+        "devoirs": [
+          7.0,
+          12.0,
+          8.0
+        ],
+        "examen": 13.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          13.5,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.75
+      },
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.0
+      }
+    }
+  },
+  {
+    "code": "BMP019",
+    "numero": "PK0I89K",
+    "nom": "CAMARA",
+    "prenom": "Rachid",
+    "date": "15/02/2001",
+    "classe": "6emeA",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "Math": {
+        "devoirs": [
+          12.0,
+          14.5,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "Francais": {
+        "devoirs": [
+          14.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.83
+      },
+      "Anglais": {
+        "devoirs": [
+          13.8
+        ],
+        "examen": 5.0,
+        "moyenne": 7.93
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          9.0,
+          16.0,
+          11.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.33
+      }
+    }
+  },
+  {
+    "code": "BMP019",
+    "numero": "9F6J9TT",
+    "nom": "POUYE",
+    "prenom": "Ousseynou",
+    "date": "02/12/1985",
+    "classe": "4emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          14.5,
+          11.0,
+          15.0
+        ],
+        "examen": 17.0,
+        "moyenne": 15.54
+      },
+      "PC": {
+        "devoirs": [
+          11.0,
+          16.0
+        ],
+        "examen": 16.0,
+        "moyenne": 15.17
+      },
+      "Francais": {
+        "devoirs": [
+          16.0,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.17
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          3.0,
+          17.0,
+          18.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.17
+      },
+      "HG": {
+        "devoirs": [
+          14.0,
+          12.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.67
+      },
+      "Anglais": {
+        "devoirs": [
+          13.5
+        ],
+        "examen": 15.0,
+        "moyenne": 14.5
+      }
+    }
+  },
+  {
+    "code": "BMP019",
+    "numero": "6G6F9F1",
+    "nom": "DEME",
+    "prenom": "Mahi",
+    "date": "27/10/1993",
+    "classe": "3emeB",
+    "matieres": {
+      "PC": {
+        "devoirs": [
+          11.0,
+          11.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.67
+      },
+      "Math": {
+        "devoirs": [
+          14.15,
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.86
+      },
+      "Francais": {
+        "devoirs": [
+          14.0,
+          12.0
+        ],
+        "examen": 13.0,
+        "moyenne": 13.0
+      },
+      "Anglais": {
+        "devoirs": [
+          12.8
+        ],
+        "examen": 15.0,
+        "moyenne": 14.27
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          9.0,
+          16.0,
+          13.0
+        ],
+        "examen": 12.0,
+        "moyenne": 12.0
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 16.0,
+        "moyenne": 14.0
+      }
+    }
+  },
+  {
+    "code": "BMP019",
+    "numero": "BH54JJ6",
+    "nom": "DUBOIS",
+    "prenom": "Bachir",
+    "date": "15/09/1994",
+    "classe": "5emeA",
+    "matieres": {
+      "Math": {
+        "devoirs": [
+          10.0,
+          15.0
+        ],
+        "examen": 15.0,
+        "moyenne": 14.17
+      },
+      "Francais": {
+        "devoirs": [
+          17.0,
+          9.0,
+          8.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.44
+      },
+      "Anglais": {
+        "devoirs": [
+          10.5,
+          9.0
+        ],
+        "examen": 15.0,
+        "moyenne": 13.25
+      },
+      "PC": {
+        "devoirs": [
+          10.0,
+          13.0
+        ],
+        "examen": 11.0,
+        "moyenne": 11.17
+      },
+      "SVT": {
+        "devoirs": [
+          12.0,
+          11.0,
+          16.0,
+          8.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.92
+      },
+      "HG": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.0
+      }
+    }
+  }
+]
