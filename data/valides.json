@@ -4,9 +4,9 @@
     "numero": "LIHGFR0",
     "nom": "Diallo",
     "prenom": "Nourou",
-    "date": "02/01/2012",
+    "date_naissance": "02/01/2012",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           14.0,
@@ -62,9 +62,9 @@
     "numero": "40DKG6T",
     "nom": "Diallo",
     "prenom": "awa",
-    "date": "21/10/2004",
+    "date_naissance": "21/10/2004",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           17.0,
@@ -121,9 +121,9 @@
     "numero": "44DSW78",
     "nom": "Ndiaye",
     "prenom": "Sidy",
-    "date": "19/01/2005",
+    "date_naissance": "19/01/2005",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           7.0,
@@ -179,9 +179,9 @@
     "numero": "20LH7BG",
     "nom": "FAYE",
     "prenom": "Fallou",
-    "date": "19/04/2002",
+    "date_naissance": "19/04/2002",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           8.0,
@@ -238,9 +238,9 @@
     "numero": "8D805GT",
     "nom": "Diop",
     "prenom": "Seyni",
-    "date": "29/09/2005",
+    "date_naissance": "29/09/2005",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -297,9 +297,9 @@
     "numero": "9HBW36T",
     "nom": "Ba",
     "prenom": "Aliou",
-    "date": "01/01/2006",
+    "date_naissance": "01/01/2006",
     "classe": "5emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           15.0,
@@ -356,9 +356,9 @@
     "numero": "W8NNJ6T",
     "nom": "Ndoye",
     "prenom": "Ousmane",
-    "date": "09/04/2004",
+    "date_naissance": "09/04/2004",
     "classe": "5emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           20.0,
@@ -415,9 +415,9 @@
     "numero": "23YLTXT",
     "nom": "Baal",
     "prenom": "Thierno",
-    "date": "22/01/2006",
+    "date_naissance": "22/01/2006",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           13.0,
@@ -472,9 +472,9 @@
     "numero": "48DKG8T",
     "nom": "Baal",
     "prenom": "Boubou",
-    "date": "26/04/2003",
+    "date_naissance": "26/04/2003",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           17.0,
@@ -530,9 +530,9 @@
     "numero": "Q7XVP6G",
     "nom": "Seck",
     "prenom": "Bineta",
-    "date": "12/02/2005",
+    "date_naissance": "12/02/2005",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           14.0,
@@ -583,13 +583,71 @@
     }
   },
   {
+    "code": "AAD005",
+    "numero": "M67KQV7",
+    "nom": "Correa",
+    "prenom": "Albert",
+    "date_naissance": "26/12/2003",
+    "classe": "6emeA",
+    "notes": {
+      "PC": {
+        "devoirs": [
+          11.0,
+          10.0,
+          9.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.0
+      },
+      "Math": {
+        "devoirs": [
+          11.0,
+          10.0,
+          12.0
+        ],
+        "examen": 10.0,
+        "moyenne": 10.33
+      },
+      "Francais": {
+        "devoirs": [
+          10.0
+        ],
+        "examen": 9.0,
+        "moyenne": 9.33
+      },
+      "Anglais": {
+        "devoirs": [
+          12.0
+        ],
+        "examen": 111.0,
+        "moyenne": 78.0
+      },
+      "SVT": {
+        "devoirs": [
+          10.0,
+          12.0,
+          8.0
+        ],
+        "examen": 12.0,
+        "moyenne": 11.33
+      },
+      "HG": {
+        "devoirs": [
+          11.0
+        ],
+        "examen": 13.0,
+        "moyenne": 12.33
+      }
+    }
+  },
+  {
     "code": "AAD007",
     "numero": "H18AC4W",
     "nom": "BA",
     "prenom": "Mouhamed",
-    "date": "14/01/2005",
+    "date_naissance": "14/01/2005",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -646,9 +704,9 @@
     "numero": "EPJHQQ5",
     "nom": "DIAW",
     "prenom": "Fallou",
-    "date": "12/08/2006",
+    "date_naissance": "12/08/2006",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           11.0
@@ -704,9 +762,9 @@
     "numero": "KM729R9",
     "nom": "NDIAYE",
     "prenom": "Marie",
-    "date": "19/02/2007",
+    "date_naissance": "19/02/2007",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           11.0
@@ -762,9 +820,9 @@
     "numero": "Q7U2XFP",
     "nom": "DEME",
     "prenom": "Abdou",
-    "date": "16/01/2004",
+    "date_naissance": "16/01/2004",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -821,9 +879,9 @@
     "numero": "0747PMJ",
     "nom": "Ndao",
     "prenom": "Baye Ndiaga",
-    "date": "08/08/2008",
+    "date_naissance": "08/08/2008",
     "classe": "5emeB",
-    "matieres": {
+    "notes": {
       "SVT": {
         "devoirs": [
           13.0,
@@ -879,9 +937,9 @@
     "numero": "18G9C4L",
     "nom": "DIEYE",
     "prenom": "Abdoulaye",
-    "date": "01/01/2002",
+    "date_naissance": "01/01/2002",
     "classe": "6emeB",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           11.0
@@ -937,9 +995,9 @@
     "numero": "UQI7FN8",
     "nom": "Cyrille",
     "prenom": "Keys",
-    "date": "07/11/2007",
+    "date_naissance": "07/11/2007",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           9.0,
@@ -996,9 +1054,9 @@
     "numero": "9H37AKZ",
     "nom": "LOW",
     "prenom": "Joakim",
-    "date": "20/12/2002",
+    "date_naissance": "20/12/2002",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           11.0
@@ -1054,9 +1112,9 @@
     "numero": "6691DTO",
     "nom": "Ndour",
     "prenom": "Karin",
-    "date": "07/07/2003",
+    "date_naissance": "07/07/2003",
     "classe": "5emeB",
-    "matieres": {
+    "notes": {
       "SVT": {
         "devoirs": [
           15.0,
@@ -1112,9 +1170,9 @@
     "numero": "8YM0304",
     "nom": "KIBINDA",
     "prenom": "Iniess",
-    "date": "15/08/2005",
+    "date_naissance": "15/08/2005",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -1171,9 +1229,9 @@
     "numero": "345ERTH",
     "nom": "Abdou",
     "prenom": "Wade",
-    "date": "31/12/2007",
+    "date_naissance": "31/12/2007",
     "classe": "6emeD",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           12.0,
@@ -1230,9 +1288,9 @@
     "numero": "SDFTY34",
     "nom": "Senir",
     "prenom": "Mbol",
-    "date": "24/02/2015",
+    "date_naissance": "24/02/2015",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           1.0,
@@ -1289,9 +1347,9 @@
     "numero": "ZRDFD4S",
     "nom": "Ndiareme",
     "prenom": "Sylla",
-    "date": "03/09/2005",
+    "date_naissance": "03/09/2005",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           1.0,
@@ -1348,9 +1406,9 @@
     "numero": "DFGE67T",
     "nom": "Mbor",
     "prenom": "Tounkho",
-    "date": "17/10/2001",
+    "date_naissance": "17/10/2001",
     "classe": "5emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -1407,9 +1465,9 @@
     "numero": "23453RD",
     "nom": "yéré",
     "prenom": "Niani",
-    "date": "05/11/2012",
+    "date_naissance": "05/11/2012",
     "classe": "3emeD",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           18.0,
@@ -1466,9 +1524,9 @@
     "numero": "56GFSE6",
     "nom": "Awa",
     "prenom": "Samaké",
-    "date": "30/09/2005",
+    "date_naissance": "30/09/2005",
     "classe": "5emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           1.0,
@@ -1525,9 +1583,9 @@
     "numero": "2022HEC",
     "nom": "SYLLA",
     "prenom": "Gallas",
-    "date": "02/03/2000",
+    "date_naissance": "02/03/2000",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           9.0,
@@ -1582,9 +1640,9 @@
     "numero": "2017ERT",
     "nom": "MANTANE",
     "prenom": "Elisabeth",
-    "date": "03/04/1996",
+    "date_naissance": "03/04/1996",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -1641,9 +1699,9 @@
     "numero": "2014TGR",
     "nom": "MENDY",
     "prenom": "Marcelin",
-    "date": "12/11/1992",
+    "date_naissance": "12/11/1992",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -1699,9 +1757,9 @@
     "numero": "2020DFH",
     "nom": "NDIAYE",
     "prenom": "Fatah",
-    "date": "23/08/2000",
+    "date_naissance": "23/08/2000",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           11.0
@@ -1757,9 +1815,9 @@
     "numero": "2019R3M",
     "nom": "MOHAMED",
     "prenom": "Ben Omar",
-    "date": "30/03/1999",
+    "date_naissance": "30/03/1999",
     "classe": "3emeC",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           12.0,
@@ -1815,9 +1873,9 @@
     "numero": "2020UT6",
     "nom": "SIHARAJ",
     "prenom": "SORPHAKA",
-    "date": "11/09/2002",
+    "date_naissance": "11/09/2002",
     "classe": "6emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           14.0,
@@ -1873,9 +1931,9 @@
     "numero": "2021IJ3",
     "nom": "LEFRANC",
     "prenom": "LYDIE",
-    "date": "04/06/2001",
+    "date_naissance": "04/06/2001",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -1931,9 +1989,9 @@
     "numero": "PO0023R",
     "nom": "DUPASQUIER",
     "prenom": "ERIC",
-    "date": "02/09/1990",
+    "date_naissance": "02/09/1990",
     "classe": "3emeC",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           20.0,
@@ -1990,9 +2048,9 @@
     "numero": "1992I0E",
     "nom": "MAHMOUD",
     "prenom": "ABDERRAHMAN",
-    "date": "12/12/1999",
+    "date_naissance": "12/12/1999",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -2049,9 +2107,9 @@
     "numero": "20L6TRA",
     "nom": "MIMOUNI",
     "prenom": "MIMOUNI",
-    "date": "12/07/1997",
+    "date_naissance": "12/07/1997",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -2107,9 +2165,9 @@
     "numero": "54FR342",
     "nom": "Kamou",
     "prenom": "LAYE",
-    "date": "04/03/2020",
+    "date_naissance": "04/03/2020",
     "classe": "5emeC",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -2161,13 +2219,71 @@
     }
   },
   {
+    "code": "AKH014",
+    "numero": "8987BHT",
+    "nom": "MBAYE",
+    "prenom": "IBOU",
+    "date_naissance": "03/01/2000",
+    "classe": "3emeD",
+    "notes": {
+      "SVT": {
+        "devoirs": [
+          12.0,
+          18.0
+        ],
+        "examen": 16.0,
+        "moyenne": 15.67
+      },
+      "PC": {
+        "devoirs": [
+          13.0,
+          16.0
+        ],
+        "examen": 19.0,
+        "moyenne": 17.5
+      },
+      "Francais": {
+        "devoirs": [
+          24.0,
+          15.0
+        ],
+        "examen": 12.0,
+        "moyenne": 14.5
+      },
+      "Anglais": {
+        "devoirs": [
+          17.0,
+          19.0
+        ],
+        "examen": 11.0,
+        "moyenne": 13.33
+      },
+      "HG": {
+        "devoirs": [
+          0.0,
+          7.0
+        ],
+        "examen": 2.0,
+        "moyenne": 2.5
+      },
+      "Math": {
+        "devoirs": [
+          11.0,
+          13.0
+        ],
+        "examen": 14.0,
+        "moyenne": 13.33
+      }
+    }
+  },
+  {
     "code": "ALT020",
     "numero": "CIDIE01",
     "nom": "CISSE",
     "prenom": "Diégane",
-    "date": "02/05/1932",
+    "date_naissance": "02/05/1932",
     "classe": "5emeA",
-    "matieres": {
+    "notes": {
       "MATH": {
         "devoirs": [
           15.0,
@@ -2223,9 +2339,9 @@
     "numero": "MN45LD5",
     "nom": "SENGHOR",
     "prenom": "Mbegane",
-    "date": "12/05/1968",
+    "date_naissance": "12/05/1968",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "MATH": {
         "devoirs": [
           19.0,
@@ -2281,9 +2397,9 @@
     "numero": "KF578FG",
     "nom": "MARA",
     "prenom": "Souma",
-    "date": "17/11/1921",
+    "date_naissance": "17/11/1921",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "MATH": {
         "devoirs": [
           11.0,
@@ -2339,9 +2455,9 @@
     "numero": "VF14HGZ",
     "nom": "TAMBEDOU",
     "prenom": "NiouKH",
-    "date": "18/12/1999",
+    "date_naissance": "18/12/1999",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "MATH": {
         "devoirs": [
           10.0,
@@ -2397,9 +2513,9 @@
     "numero": "RTOP15K",
     "nom": "SARR",
     "prenom": "Mbissine",
-    "date": "01/12/1996",
+    "date_naissance": "01/12/1996",
     "classe": "5emeB",
-    "matieres": {
+    "notes": {
       "MATH": {
         "devoirs": [
           16.0,
@@ -2455,9 +2571,9 @@
     "numero": "HGKE145",
     "nom": "DEME",
     "prenom": "Ndew",
-    "date": "15/02/1956",
+    "date_naissance": "15/02/1956",
     "classe": "6emeB",
-    "matieres": {
+    "notes": {
       "MATH": {
         "devoirs": [
           15.0,
@@ -2513,9 +2629,9 @@
     "numero": "54BFH54",
     "nom": "KOITA",
     "prenom": "Fatou",
-    "date": "15/11/1978",
+    "date_naissance": "15/11/1978",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "MATH": {
         "devoirs": [
           14.0,
@@ -2571,9 +2687,9 @@
     "numero": "DF85FUJ",
     "nom": "LABOU",
     "prenom": "Pon",
-    "date": "17/06/2002",
+    "date_naissance": "17/06/2002",
     "classe": "5emeA",
-    "matieres": {
+    "notes": {
       "MATH": {
         "devoirs": [
           15.0,
@@ -2629,9 +2745,9 @@
     "numero": "E7812Z3",
     "nom": "DIOP",
     "prenom": "ALY",
-    "date": "12/04/1998",
+    "date_naissance": "12/04/1998",
     "classe": "5emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           14.0,
@@ -2686,9 +2802,9 @@
     "numero": "Z781263",
     "nom": "FAYE",
     "prenom": "FATOU",
-    "date": "12/04/1997",
+    "date_naissance": "12/04/1997",
     "classe": "6emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           13.0,
@@ -2743,9 +2859,9 @@
     "numero": "Z7812Z5",
     "nom": "DIOUM",
     "prenom": "ALIOUNE",
-    "date": "12/12/2011",
+    "date_naissance": "12/12/2011",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           11.0
@@ -2801,9 +2917,9 @@
     "numero": "Z7812Z9",
     "nom": "NDIAYE",
     "prenom": "MOUSSA",
-    "date": "12/03/1999",
+    "date_naissance": "12/03/1999",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -2860,9 +2976,9 @@
     "numero": "Z7852Z3",
     "nom": "FALL",
     "prenom": "MOUSTAPHA",
-    "date": "09/09/2012",
+    "date_naissance": "09/09/2012",
     "classe": "6emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -2919,9 +3035,9 @@
     "numero": "Z7812Z7",
     "nom": "MBAYE",
     "prenom": "IDRISSA",
-    "date": "15/05/2011",
+    "date_naissance": "15/05/2011",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "SVT": {
         "devoirs": [
           15.0,
@@ -2979,9 +3095,9 @@
     "numero": "Z7312Z3",
     "nom": "TINE",
     "prenom": "SEYDOU",
-    "date": "03/09/2000",
+    "date_naissance": "03/09/2000",
     "classe": "5emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -3038,9 +3154,9 @@
     "numero": "Z7832Z3",
     "nom": "SANE",
     "prenom": "MOUSSA",
-    "date": "29/12/2001",
+    "date_naissance": "29/12/2001",
     "classe": "5emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           11.0,
@@ -3096,9 +3212,9 @@
     "numero": "Z8812Z3",
     "nom": "TOURE",
     "prenom": "OUMAR",
-    "date": "29/11/2001",
+    "date_naissance": "29/11/2001",
     "classe": "5emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           9.0,
@@ -3155,9 +3271,9 @@
     "numero": "SONA001",
     "nom": "FAYE",
     "prenom": "FATOU",
-    "date": "12/04/1993",
+    "date_naissance": "12/04/1993",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -3213,9 +3329,9 @@
     "numero": "SONA002",
     "nom": "GAYE",
     "prenom": "THIERNO",
-    "date": "14/02/1992",
+    "date_naissance": "14/02/1992",
     "classe": "6emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -3271,9 +3387,9 @@
     "numero": "SONA003",
     "nom": "DIOP",
     "prenom": "YOUSSOU",
-    "date": "12/06/1994",
+    "date_naissance": "12/06/1994",
     "classe": "5emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -3329,9 +3445,9 @@
     "numero": "SONA004",
     "nom": "WAGNE",
     "prenom": "PETIT",
-    "date": "12/07/1995",
+    "date_naissance": "12/07/1995",
     "classe": "5emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -3387,9 +3503,9 @@
     "numero": "SONA005",
     "nom": "CISSE",
     "prenom": "GALAYE",
-    "date": "04/03/1995",
+    "date_naissance": "04/03/1995",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -3445,9 +3561,9 @@
     "numero": "SONA006",
     "nom": "GOMIS",
     "prenom": "PATA",
-    "date": "01/06/1997",
+    "date_naissance": "01/06/1997",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -3503,9 +3619,9 @@
     "numero": "SONA007",
     "nom": "SANE",
     "prenom": "BALLA",
-    "date": "09/09/1999",
+    "date_naissance": "09/09/1999",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -3561,9 +3677,9 @@
     "numero": "SONA008",
     "nom": "SAGNA",
     "prenom": "SADIO",
-    "date": "06/06/1999",
+    "date_naissance": "06/06/1999",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -3619,9 +3735,9 @@
     "numero": "SONA009",
     "nom": "NIANG",
     "prenom": "MAREME",
-    "date": "12/12/1996",
+    "date_naissance": "12/12/1996",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           4.0,
@@ -3677,9 +3793,9 @@
     "numero": "A7723ML",
     "nom": "Kane",
     "prenom": "Moussa",
-    "date": "29/12/2001",
+    "date_naissance": "29/12/2001",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           14.0,
@@ -3734,9 +3850,9 @@
     "numero": "Z7812Z3",
     "nom": "Konimba",
     "prenom": "Mousona",
-    "date": "12/12/2009",
+    "date_naissance": "12/12/2009",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           12.0,
@@ -3790,9 +3906,9 @@
     "numero": "M770231",
     "nom": "Ilimani",
     "prenom": "Mustapha",
-    "date": "12/04/1997",
+    "date_naissance": "12/04/1997",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -3848,9 +3964,9 @@
     "numero": "JH23GH3",
     "nom": "Loum",
     "prenom": "Mamadou",
-    "date": "12/12/2011",
+    "date_naissance": "12/12/2011",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           13.0,
@@ -3905,9 +4021,9 @@
     "numero": "SX34AZ2",
     "nom": "Gaye",
     "prenom": "Souleyni",
-    "date": "12/03/1999",
+    "date_naissance": "12/03/1999",
     "classe": "6emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -3963,9 +4079,9 @@
     "numero": "E9D45JJ",
     "nom": "Hann",
     "prenom": "Cheikh",
-    "date": "09/09/2012",
+    "date_naissance": "09/09/2012",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           13.0,
@@ -4022,9 +4138,9 @@
     "numero": "HIE938J",
     "nom": "Kane",
     "prenom": "Aliou",
-    "date": "15/05/2011",
+    "date_naissance": "15/05/2011",
     "classe": "6emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           20.0,
@@ -4081,9 +4197,9 @@
     "numero": "23JHNB2",
     "nom": "Ngimbona",
     "prenom": "Charles",
-    "date": "03/09/2000",
+    "date_naissance": "03/09/2000",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           11.0,
@@ -4140,9 +4256,9 @@
     "numero": "HJ293D4",
     "nom": "Ikouna",
     "prenom": "Mbalanga",
-    "date": "01/01/2001",
+    "date_naissance": "01/01/2001",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           13.0,
@@ -4197,9 +4313,9 @@
     "numero": "XSDEF12",
     "nom": "gueye",
     "prenom": "fatou",
-    "date": "03/04/2005",
+    "date_naissance": "03/04/2005",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "HG": {
         "devoirs": [
           12.0
@@ -4253,9 +4369,9 @@
     "numero": "DEGLAC4",
     "nom": "fall",
     "prenom": "saly",
-    "date": "06/12/2007",
+    "date_naissance": "06/12/2007",
     "classe": "6emeB",
-    "matieres": {
+    "notes": {
       "HG": {
         "devoirs": [
           13.0
@@ -4309,9 +4425,9 @@
     "numero": "DZFXML5",
     "nom": "Lo",
     "prenom": "amy",
-    "date": "08/03/2003",
+    "date_naissance": "08/03/2003",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "HG": {
         "devoirs": [
           13.0
@@ -4365,9 +4481,9 @@
     "numero": "DZLSWQ7",
     "nom": "sambe",
     "prenom": "salif",
-    "date": "18/03/2004",
+    "date_naissance": "18/03/2004",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           14.0,
@@ -4424,9 +4540,9 @@
     "numero": "JHDHRE8",
     "nom": "sene",
     "prenom": "jeannette",
-    "date": "20/12/2007",
+    "date_naissance": "20/12/2007",
     "classe": "6emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           11.0,
@@ -4482,9 +4598,9 @@
     "numero": "LSXNEB0",
     "nom": "gueye",
     "prenom": "modou",
-    "date": "03/01/2002",
+    "date_naissance": "03/01/2002",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "SVT": {
         "devoirs": [
           13.0
@@ -4536,9 +4652,9 @@
     "numero": "OKYLDC8",
     "nom": "KANE",
     "prenom": "Ousmane",
-    "date": "07/12/2007",
+    "date_naissance": "07/12/2007",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           12.0,
@@ -4586,9 +4702,9 @@
     "numero": "DKBLMT7",
     "nom": "KONATE",
     "prenom": "Djiby",
-    "date": "09/06/2010",
+    "date_naissance": "09/06/2010",
     "classe": "6emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           17.0
@@ -4633,9 +4749,9 @@
     "numero": "CMGBDK9",
     "nom": "MENDY",
     "prenom": "Christelle",
-    "date": "11/10/2006",
+    "date_naissance": "11/10/2006",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           14.0,
@@ -4688,9 +4804,9 @@
     "numero": "YOSADK1",
     "nom": "OUEDRAOGO",
     "prenom": "Yankoba",
-    "date": "15/02/2009",
+    "date_naissance": "15/02/2009",
     "classe": "5emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0
@@ -4736,9 +4852,9 @@
     "numero": "SFSADK2",
     "nom": "FALL",
     "prenom": "Salimata",
-    "date": "02/08/2010",
+    "date_naissance": "02/08/2010",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           13.0
@@ -4784,9 +4900,9 @@
     "numero": "MDMTDK9",
     "nom": "DIOP",
     "prenom": "Mamy",
-    "date": "25/09/2005",
+    "date_naissance": "25/09/2005",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           9.0,
@@ -4834,9 +4950,9 @@
     "numero": "MTBFCA2",
     "nom": "TAPSOBA",
     "prenom": "Mounkoudy",
-    "date": "08/12/2008",
+    "date_naissance": "08/12/2008",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "Anglais": {
         "devoirs": [
           12.0,
@@ -4892,9 +5008,9 @@
     "numero": "DDPADK7",
     "nom": "DIA",
     "prenom": "Dieynaba",
-    "date": "01/05/2008",
+    "date_naissance": "01/05/2008",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -4942,9 +5058,9 @@
     "numero": "ADBMML5",
     "nom": "DIOGOSOUMA",
     "prenom": "Aliou",
-    "date": "03/10/2009",
+    "date_naissance": "03/10/2009",
     "classe": "5emeB",
-    "matieres": {
+    "notes": {
       "Français": {
         "devoirs": [
           15.0
@@ -4989,9 +5105,9 @@
     "numero": "ABHLMY1",
     "nom": "BAOBEY",
     "prenom": "Angelline",
-    "date": "18/03/2006",
+    "date_naissance": "18/03/2006",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "SVT": {
         "devoirs": [
           16.0,
@@ -5047,9 +5163,9 @@
     "numero": "AF32IBC",
     "nom": "FALL",
     "prenom": "OUSSEYOU",
-    "date": "03/07/2000",
+    "date_naissance": "03/07/2000",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           13.0,
@@ -5105,9 +5221,9 @@
     "numero": "M60GRTL",
     "nom": "TINE",
     "prenom": "SOKHNA",
-    "date": "25/02/2005",
+    "date_naissance": "25/02/2005",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           8.0,
@@ -5163,9 +5279,9 @@
     "numero": "QNXKW09",
     "nom": "SINE",
     "prenom": "MARIEME",
-    "date": "29/08/2008",
+    "date_naissance": "29/08/2008",
     "classe": "5emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           8.0,
@@ -5221,9 +5337,9 @@
     "numero": "G2NXW1L",
     "nom": "DIOUF",
     "prenom": "MOUSTAPHA",
-    "date": "05/07/2001",
+    "date_naissance": "05/07/2001",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -5277,9 +5393,9 @@
     "numero": "UPNCG78",
     "nom": "KA",
     "prenom": "ALIOU",
-    "date": "10/05/2009",
+    "date_naissance": "10/05/2009",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           9.0,
@@ -5336,9 +5452,9 @@
     "numero": "WYI96BT",
     "nom": "BA",
     "prenom": "MOUSSA",
-    "date": "05/11/2010",
+    "date_naissance": "05/11/2010",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -5396,9 +5512,9 @@
     "numero": "WYI96BT",
     "nom": "DIALLO",
     "prenom": "SEYNABOU",
-    "date": "16/02/2003",
+    "date_naissance": "16/02/2003",
     "classe": "5emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           8.0,
@@ -5453,9 +5569,9 @@
     "numero": "FRTX54U",
     "nom": "NDIAYE",
     "prenom": "FATOU",
-    "date": "22/07/2005",
+    "date_naissance": "22/07/2005",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           12.0,
@@ -5510,9 +5626,9 @@
     "numero": "LJQC67L",
     "nom": "WADE",
     "prenom": "ASTOU",
-    "date": "12/12/2007",
+    "date_naissance": "12/12/2007",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           13.0,
@@ -5568,9 +5684,9 @@
     "numero": "KFPB32H",
     "nom": "SY",
     "prenom": "ADJA",
-    "date": "02/08/2002",
+    "date_naissance": "02/08/2002",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -5627,9 +5743,9 @@
     "numero": "GH43RTU",
     "nom": "Ndao",
     "prenom": "Aram",
-    "date": "16/02/2000",
+    "date_naissance": "16/02/2000",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -5686,9 +5802,9 @@
     "numero": "PLM56DS",
     "nom": "Gomis",
     "prenom": "Pipo",
-    "date": "16/03/1998",
+    "date_naissance": "16/03/1998",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           8.0,
@@ -5745,9 +5861,9 @@
     "numero": "GF34KHS",
     "nom": "Diouf",
     "prenom": "Ousseynou",
-    "date": "03/12/1992",
+    "date_naissance": "03/12/1992",
     "classe": "5emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           18.0,
@@ -5804,9 +5920,9 @@
     "numero": "JHGF7F5",
     "nom": "Diop",
     "prenom": "Elimane",
-    "date": "12/01/2003",
+    "date_naissance": "12/01/2003",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           9.0,
@@ -5863,9 +5979,9 @@
     "numero": "RED76BH",
     "nom": "Cissé",
     "prenom": "Babacar",
-    "date": "03/06/2005",
+    "date_naissance": "03/06/2005",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           8.0,
@@ -5922,9 +6038,9 @@
     "numero": "GF69LBC",
     "nom": "Ba",
     "prenom": "Abdoulaye",
-    "date": "09/02/1992",
+    "date_naissance": "09/02/1992",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           18.0,
@@ -5981,9 +6097,9 @@
     "numero": "ML09RDS",
     "nom": "Diallo",
     "prenom": "Alioune",
-    "date": "08/07/1993",
+    "date_naissance": "08/07/1993",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           9.0,
@@ -6040,9 +6156,9 @@
     "numero": "NBV76RD",
     "nom": "Gueye",
     "prenom": "Abdalah",
-    "date": "01/01/1992",
+    "date_naissance": "01/01/1992",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           12.0,
@@ -6099,9 +6215,9 @@
     "numero": "NB675DH",
     "nom": "Dia",
     "prenom": "Hawa",
-    "date": "07/07/1997",
+    "date_naissance": "07/07/1997",
     "classe": "5emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           15.0,
@@ -6158,9 +6274,9 @@
     "numero": "MLHF65D",
     "nom": "Guissé",
     "prenom": "Penda",
-    "date": "04/04/1994",
+    "date_naissance": "04/04/1994",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           8.0,
@@ -6217,9 +6333,9 @@
     "numero": "IHFK34G",
     "nom": "DIOUM",
     "prenom": "Harry",
-    "date": "14/01/1995",
+    "date_naissance": "14/01/1995",
     "classe": "5emeA",
-    "matieres": {
+    "notes": {
       "SVT": {
         "devoirs": [
           12.0,
@@ -6275,9 +6391,9 @@
     "numero": "3FR5IJ9",
     "nom": "DIALLO",
     "prenom": "Hermione",
-    "date": "12/08/2006",
+    "date_naissance": "12/08/2006",
     "classe": "4emeB",
-    "matieres": {
+    "notes": {
       "SVT": {
         "devoirs": [
           15.0,
@@ -6335,9 +6451,9 @@
     "numero": "PM12NG7",
     "nom": "DIOP",
     "prenom": "Marième",
-    "date": "19/08/1997",
+    "date_naissance": "19/08/1997",
     "classe": "3emeA",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           15.0,
@@ -6394,9 +6510,9 @@
     "numero": "89HY6F5",
     "nom": "DIALLO",
     "prenom": "Ronald",
-    "date": "09/05/2000",
+    "date_naissance": "09/05/2000",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -6451,9 +6567,9 @@
     "numero": "5D7BKJ2",
     "nom": "FALL",
     "prenom": "Magui",
-    "date": "30/08/2008",
+    "date_naissance": "30/08/2008",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -6510,9 +6626,9 @@
     "numero": "PK0I89K",
     "nom": "CAMARA",
     "prenom": "Rachid",
-    "date": "15/02/2001",
+    "date_naissance": "15/02/2001",
     "classe": "6emeA",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           11.0
@@ -6568,9 +6684,9 @@
     "numero": "9F6J9TT",
     "nom": "POUYE",
     "prenom": "Ousseynou",
-    "date": "02/12/1985",
+    "date_naissance": "02/12/1985",
     "classe": "4emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
@@ -6629,9 +6745,9 @@
     "numero": "6G6F9F1",
     "nom": "DEME",
     "prenom": "Mahi",
-    "date": "27/10/1993",
+    "date_naissance": "27/10/1993",
     "classe": "3emeB",
-    "matieres": {
+    "notes": {
       "PC": {
         "devoirs": [
           11.0,
@@ -6687,9 +6803,9 @@
     "numero": "BH54JJ6",
     "nom": "DUBOIS",
     "prenom": "Bachir",
-    "date": "15/09/1994",
+    "date_naissance": "15/09/1994",
     "classe": "5emeA",
-    "matieres": {
+    "notes": {
       "Math": {
         "devoirs": [
           10.0,
