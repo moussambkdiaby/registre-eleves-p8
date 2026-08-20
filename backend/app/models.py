@@ -112,3 +112,102 @@ def importer_etudiants(numeros_a_importer: list[str]) -> dict:
         importes += 1
 
     return {"importes": importes, "ignores": ignores}
+
+def rechercher_etudiants_db(numero=None, code=None, nom=None, prenom=None, classe=None) -> list[dict]:
+    """Recherche les étudiants en base, avec filtres optionnels, hors archivés."""
+    conditions = ["e.archive = FALSE"]
+    params = []
+
+    if numero:
+        conditions.append("e.numero ILIKE %s")
+        params.append(f"%{numero}%")
+    if code:
+        conditions.append("e.code ILIKE %s")
+        params.append(f"%{code}%")
+    if nom:
+        conditions.append("e.nom ILIKE %s")
+        params.append(f"%{nom}%")
+    if prenom:
+        conditions.append("e.prenom ILIKE %s")
+        params.append(f"%{prenom}%")
+    if classe:
+        conditions.append("e.classe = %s")
+        params.append(classe)
+
+    where_clause = " AND ".join(conditions)
+
+    query = f"""
+        SELECT e.id, e.numero, e.code, e.nom, e.prenom, e.date_naissance, e.classe,
+               ROUND(AVG(n.moyenne), 2) AS moyenne_generale
+        FROM etudiants e
+        LEFT JOIN notes n ON n.etudiant_id = e.id
+        WHERE {where_clause}
+        GROUP BY e.id
+        ORDER BY e.id
+    """
+
+    with get_cursor() as cur:
+        cur.execute(query, params)
+        resultats = cur.fetchall()
+
+    for r in resultats:
+        r["source"] = "DB"
+    return resultats
+
+
+def rechercher_etudiants_json(numero=None, code=None, nom=None, prenom=None, classe=None) -> list[dict]:
+    """Recherche dans le JSON, en excluant les étudiants déjà importés en base."""
+    donnees = charger_valides_json()
+    numeros_db = get_numeros_existants()
+
+    resultats = []
+    for e in donnees:
+        if e["numero"] in numeros_db:
+            continue  # déjà en DB, on ne le montre pas en double
+
+        if numero and numero.lower() not in e["numero"].lower():
+            continue
+        if code and code.lower() not in e["code"].lower():
+            continue
+        if nom and nom.lower() not in e["nom"].lower():
+            continue
+        if prenom and prenom.lower() not in e["prenom"].lower():
+            continue
+        if classe and classe != e["classe"]:
+            continue
+
+        moyennes = [m["moyenne"] for m in e["notes"].values()]
+        moyenne_generale = round(sum(moyennes) / len(moyennes), 2) if moyennes else None
+
+        resultats.append({
+            "id": None,
+            "numero": e["numero"],
+            "code": e["code"],
+            "nom": e["nom"],
+            "prenom": e["prenom"],
+            "date_naissance": e["date_naissance"],
+            "classe": e["classe"],
+            "moyenne_generale": moyenne_generale,
+            "source": "JSON",
+        })
+    return resultats
+
+
+def obtenir_etudiants(page=1, limite=5, numero=None, code=None, nom=None, prenom=None, classe=None) -> dict:
+    """Combine DB + JSON, applique les filtres, puis découpe selon la pagination."""
+    resultats_db = rechercher_etudiants_db(numero, code, nom, prenom, classe)
+    resultats_json = rechercher_etudiants_json(numero, code, nom, prenom, classe)
+
+    combines = resultats_db + resultats_json
+    total = len(combines)
+
+    debut = (page - 1) * limite
+    fin = debut + limite
+    page_resultats = combines[debut:fin]
+
+    return {
+        "total": total,
+        "page": page,
+        "limite": limite,
+        "resultats": page_resultats,
+    }
