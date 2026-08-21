@@ -453,3 +453,89 @@ def get_etudiants_archives() -> list[dict]:
     for r in resultats:
         r["source"] = "DB"
     return resultats
+
+def get_kpis() -> dict:
+    """Indicateurs globaux : total, origine, validité, archivage."""
+    with get_cursor() as cur:
+        cur.execute("SELECT COUNT(*) AS n FROM etudiants WHERE archive = FALSE")
+        total_db = cur.fetchone()["n"]
+
+        cur.execute("SELECT COUNT(*) AS n FROM etudiants WHERE archive = TRUE")
+        total_archives = cur.fetchone()["n"]
+
+    numeros_db = get_numeros_existants()
+    donnees_json = charger_valides_json()
+    total_json = len([e for e in donnees_json if e["numero"] not in numeros_db])
+
+    return {
+        "total_donnees": total_db + total_json,
+        "nombre_db": total_db,
+        "nombre_json": total_json,
+        "nombre_valides": total_db + total_json,  # tout ce qui est visible est valide
+        "nombre_invalides": 0,  # phase 2, pas de invalides.json pour l'instant
+        "nombre_archivees": total_archives,
+    }
+
+
+def get_repartition_par_classe() -> list[dict]:
+    """Nombre d'étudiants par classe, en combinant DB et JSON restant."""
+    with get_cursor() as cur:
+        cur.execute(
+            """
+            SELECT classe, COUNT(*) AS nombre
+            FROM etudiants
+            WHERE archive = FALSE
+            GROUP BY classe
+            """
+        )
+        resultats_db = {row["classe"]: row["nombre"] for row in cur.fetchall()}
+
+    numeros_db = get_numeros_existants()
+    donnees_json = charger_valides_json()
+
+    repartition = dict(resultats_db)
+    for e in donnees_json:
+        if e["numero"] not in numeros_db:
+            repartition[e["classe"]] = repartition.get(e["classe"], 0) + 1
+
+    return [{"classe": classe, "nombre": nombre} for classe, nombre in sorted(repartition.items())]
+
+
+def get_repartition_par_source() -> list[dict]:
+    """Nombre d'étudiants issus de la DB vs du JSON."""
+    kpis = get_kpis()
+    return [
+        {"source": "DB", "nombre": kpis["nombre_db"]},
+        {"source": "JSON", "nombre": kpis["nombre_json"]},
+    ]
+
+
+def get_moyenne_par_classe() -> list[dict]:
+    """Moyenne générale par classe, uniquement pour les étudiants en base."""
+    query = """
+        SELECT e.classe, ROUND(AVG(n.moyenne), 2) AS moyenne_classe
+        FROM etudiants e
+        JOIN notes n ON n.etudiant_id = e.id
+        WHERE e.archive = FALSE
+        GROUP BY e.classe
+        ORDER BY e.classe
+    """
+    with get_cursor() as cur:
+        cur.execute(query)
+        return cur.fetchall()
+
+
+def get_top10_meilleures_moyennes() -> list[dict]:
+    """Top 10 des étudiants ayant la meilleure moyenne générale (données DB uniquement)."""
+    query = """
+        SELECT e.numero, e.nom, e.prenom, e.classe, ROUND(AVG(n.moyenne), 2) AS moyenne_generale
+        FROM etudiants e
+        JOIN notes n ON n.etudiant_id = e.id
+        WHERE e.archive = FALSE
+        GROUP BY e.id
+        ORDER BY moyenne_generale DESC
+        LIMIT 10
+    """
+    with get_cursor() as cur:
+        cur.execute(query)
+        return cur.fetchall()
