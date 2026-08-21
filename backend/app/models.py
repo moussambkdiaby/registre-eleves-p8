@@ -235,3 +235,40 @@ def obtenir_etudiants(page=1, limite=5, numero=None, code=None, nom=None, prenom
         "limite": limite,
         "resultats": page_resultats,
     }
+
+
+def ajouter_etudiant(etudiant: dict) -> int:
+    """Insère un nouvel étudiant ajouté manuellement, avec ses notes optionnelles."""
+    matieres_id = get_matieres_id()
+
+    with get_cursor(commit=True) as cur:
+        cur.execute(
+            """
+            INSERT INTO etudiants (numero, code, nom, prenom, date_naissance, classe)
+            VALUES (%s, %s, %s, %s, %s, %s)
+            RETURNING id
+            """,
+            (
+                etudiant["numero"],
+                etudiant.get("code"),
+                etudiant["nom"],
+                etudiant["prenom"],
+                etudiant["date_naissance"],
+                etudiant["classe"],
+            ),
+        )
+        etudiant_id = cur.fetchone()["id"]
+
+        for nom_matiere, valeurs in etudiant.get("notes", {}).items():
+            matiere_id = matieres_id.get(nom_matiere)
+            if matiere_id is None:
+                continue
+            cur.execute(
+                """
+                INSERT INTO notes (etudiant_id, matiere_id, devoirs, examen, moyenne)
+                VALUES (%s, %s, %s, %s, %s)
+                """,
+                (etudiant_id, matiere_id, valeurs["devoirs"], valeurs["examen"], valeurs["moyenne"]),
+            )
+
+    return etudiant_id
