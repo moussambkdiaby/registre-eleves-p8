@@ -49,11 +49,19 @@ def get_matieres_id() -> dict[str, int]:
     return {row["nom"]: row["id"] for row in resultats}
 
 
+def _note_valide(valeur) -> bool:
+    """Une note doit être comprise entre 0 et 20 pour être considérée valide."""
+    if valeur is None:
+        return False
+    return 0 <= valeur <= 20
+
+
 def importer_etudiants(numeros_a_importer: list[str]) -> dict:
     """
     Importe en PostgreSQL les étudiants du JSON dont le numero est dans
     numeros_a_importer, en ignorant ceux déjà présents en base (doublons).
-    Renvoie un résumé : combien importés, combien ignorés.
+    Les notes hors de la plage 0-20 sont rejetées individuellement et
+    signalées, sans bloquer l'import de l'étudiant.
     """
     donnees_json = charger_valides_json()
     numeros_existants = get_numeros_existants()
@@ -61,6 +69,7 @@ def importer_etudiants(numeros_a_importer: list[str]) -> dict:
 
     importes = 0
     ignores = 0
+    anomalies = []
 
     for etudiant in donnees_json:
         if etudiant["numero"] not in numeros_a_importer:
@@ -89,29 +98,44 @@ def importer_etudiants(numeros_a_importer: list[str]) -> dict:
             )
             etudiant_id = cur.fetchone()["id"]
 
-            # 2. Insertion des notes, matière par matière
+            # 2. Insertion des notes, matière par matière, avec validation
             for nom_matiere, valeurs in etudiant["notes"].items():
                 matiere_id = matieres_id.get(nom_matiere)
                 if matiere_id is None:
-                    continue  # matière inconnue dans la table matieres, on ignore
+                    continue  # matière inconnue dans la table matieres
+
+                devoirs = valeurs.get("devoirs", [])
+                examen = valeurs.get("examen")
+                moyenne = valeurs.get("moyenne")
+
+                devoirs_invalides = [d for d in devoirs if not _note_valide(d)]
+                examen_invalide = not _note_valide(examen)
+
+                if devoirs_invalides or examen_invalide:
+                    anomalies.append({
+                        "numero": etudiant["numero"],
+                        "nom": etudiant["nom"],
+                        "matiere": nom_matiere,
+                        "devoirs_invalides": devoirs_invalides,
+                        "examen_invalide": examen if examen_invalide else None,
+                    })
+                    continue  # on n'insère pas cette matière pour cet étudiant
 
                 cur.execute(
                     """
                     INSERT INTO notes (etudiant_id, matiere_id, devoirs, examen, moyenne)
                     VALUES (%s, %s, %s, %s, %s)
                     """,
-                    (
-                        etudiant_id,
-                        matiere_id,
-                        valeurs["devoirs"],
-                        valeurs["examen"],
-                        valeurs["moyenne"],
-                    ),
+                    (etudiant_id, matiere_id, devoirs, examen, moyenne),
                 )
 
         importes += 1
 
-    return {"importes": importes, "ignores": ignores}
+    return {
+        "importes": importes,
+        "ignores": ignores,
+        "anomalies": anomalies,
+    }
 
 def rechercher_etudiants_db(numero=None, code=None, nom=None, prenom=None, classe=None) -> list[dict]:
     """Recherche les étudiants en base, avec filtres optionnels, hors archivés."""

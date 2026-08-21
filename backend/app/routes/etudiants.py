@@ -1,5 +1,7 @@
 from fastapi import APIRouter, Query
-from app.models import obtenir_etudiants
+from pydantic import BaseModel
+
+from app.models import obtenir_etudiants, importer_etudiants
 
 router = APIRouter()
 
@@ -19,3 +21,14 @@ def liste_etudiants(
         page=page, limite=limite,
         numero=numero, code=code, nom=nom, prenom=prenom, classe=classe,
     )
+
+
+class ImportRequest(BaseModel):
+    numeros: list[str]
+
+
+@router.post("/etudiants/importer")
+def importer(donnees: ImportRequest):
+    """Importe en PostgreSQL les étudiants JSON dont les numéros sont fournis."""
+    resultat = importer_etudiants(donnees.numeros)
+    return resultat
