@@ -1,16 +1,18 @@
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Query, HTTPException
 from pydantic import BaseModel
-
-from app.models import obtenir_etudiants, importer_etudiants
-
-from fastapi import HTTPException
 from psycopg2 import errors as pg_errors
 
-from app.schemas import EtudiantCreate
-from app.models import ajouter_etudiant
-
 from app.schemas import EtudiantCreate, EtudiantUpdate, NoteUpdate
-from app.models import modifier_etudiant, modifier_note
+from app.models import (
+    obtenir_etudiants,
+    importer_etudiants,
+    ajouter_etudiant,
+    modifier_etudiant,
+    modifier_note,
+    archiver_etudiant,
+    restaurer_etudiant,
+    get_etudiants_archives,
+)
 
 router = APIRouter()
 
@@ -42,6 +44,7 @@ def importer(donnees: ImportRequest):
     resultat = importer_etudiants(donnees.numeros)
     return resultat
 
+
 @router.post("/etudiants", status_code=201)
 def creer_etudiant(etudiant: EtudiantCreate):
     """Ajoute un nouvel étudiant en base, avec validation complète."""
@@ -71,3 +74,27 @@ def editer_note(etudiant_id: int, matiere: str, champs: NoteUpdate):
     if not succes:
         raise HTTPException(status_code=404, detail="Étudiant ou matière introuvable")
     return {"message": "Note mise à jour"}
+
+
+@router.patch("/etudiants/{etudiant_id}/archiver")
+def archiver(etudiant_id: int):
+    """Archive un étudiant (ne le supprime pas, juste le masque des listes principales)."""
+    succes = archiver_etudiant(etudiant_id)
+    if not succes:
+        raise HTTPException(status_code=404, detail="Étudiant introuvable")
+    return {"message": "Étudiant archivé"}
+
+
+@router.patch("/etudiants/{etudiant_id}/restaurer")
+def restaurer(etudiant_id: int):
+    """Restaure un étudiant précédemment archivé."""
+    succes = restaurer_etudiant(etudiant_id)
+    if not succes:
+        raise HTTPException(status_code=404, detail="Étudiant introuvable")
+    return {"message": "Étudiant restauré"}
+
+
+@router.get("/etudiants/archives")
+def liste_archives():
+    """Liste tous les étudiants archivés."""
+    return {"resultats": get_etudiants_archives()}

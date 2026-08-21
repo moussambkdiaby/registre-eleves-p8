@@ -412,3 +412,44 @@ def modifier_note(etudiant_id: int, nom_matiere: str, champs: dict) -> bool:
             )
 
     return True
+
+
+def archiver_etudiant(etudiant_id: int) -> bool:
+    """Archive un étudiant (soft delete) : il ne sera plus affiché dans les listes principales."""
+    with get_cursor(commit=True) as cur:
+        cur.execute(
+            "UPDATE etudiants SET archive = TRUE WHERE id = %s RETURNING id",
+            (etudiant_id,),
+        )
+        resultat = cur.fetchone()
+    return resultat is not None
+
+
+def restaurer_etudiant(etudiant_id: int) -> bool:
+    """Restaure un étudiant archivé."""
+    with get_cursor(commit=True) as cur:
+        cur.execute(
+            "UPDATE etudiants SET archive = FALSE WHERE id = %s RETURNING id",
+            (etudiant_id,),
+        )
+        resultat = cur.fetchone()
+    return resultat is not None
+
+
+def get_etudiants_archives() -> list[dict]:
+    """Renvoie tous les étudiants archivés, avec leur moyenne générale."""
+    query = """
+        SELECT e.id, e.numero, e.code, e.nom, e.prenom, e.date_naissance, e.classe,
+               ROUND(AVG(n.moyenne), 2) AS moyenne_generale
+        FROM etudiants e
+        LEFT JOIN notes n ON n.etudiant_id = e.id
+        WHERE e.archive = TRUE
+        GROUP BY e.id
+        ORDER BY e.id
+    """
+    with get_cursor() as cur:
+        cur.execute(query)
+        resultats = cur.fetchall()
+    for r in resultats:
+        r["source"] = "DB"
+    return resultats
