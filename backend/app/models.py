@@ -272,3 +272,143 @@ def ajouter_etudiant(etudiant: dict) -> int:
             )
 
     return etudiant_id
+
+
+def modifier_etudiant(etudiant_id: int, champs: dict) -> bool:
+    """
+    Met à jour uniquement les champs fournis (non None) pour un étudiant.
+    Renvoie False si l'étudiant n'existe pas.
+    """
+    champs_a_modifier = {k: v for k, v in champs.items() if v is not None}
+    if not champs_a_modifier:
+        return True  # rien à faire, mais pas une erreur
+
+    colonnes = ", ".join(f"{col} = %s" for col in champs_a_modifier)
+    valeurs = list(champs_a_modifier.values()) + [etudiant_id]
+
+    with get_cursor(commit=True) as cur:
+        cur.execute(
+            f"UPDATE etudiants SET {colonnes} WHERE id = %s RETURNING id",
+            valeurs,
+        )
+        resultat = cur.fetchone()
+
+    return resultat is not None
+
+
+def modifier_note(etudiant_id: int, nom_matiere: str, champs: dict) -> bool:
+    """
+    Met à jour (ou crée si absente) la note d'une matière pour un étudiant.
+    Renvoie False si l'étudiant ou la matière n'existe pas.
+    """
+    matieres_id = get_matieres_id()
+    matiere_id = matieres_id.get(nom_matiere)
+    if matiere_id is None:
+        return False
+
+    with get_cursor(commit=True) as cur:
+        # Vérifie que l'étudiant existe
+        cur.execute("SELECT id FROM etudiants WHERE id = %s", (etudiant_id,))
+        if cur.fetchone() is None:
+            return False
+
+        # Vérifie si une note existe déjà pour cette matière
+        cur.execute(
+            "SELECT id FROM notes WHERE etudiant_id = %s AND matiere_id = %s",
+            (etudiant_id, matiere_id),
+        )
+        note_existante = cur.fetchone()
+
+        champs_a_modifier = {k: v for k, v in champs.items() if v is not None}
+
+        if note_existante:
+            if not champs_a_modifier:
+                return True
+            colonnes = ", ".join(f"{col} = %s" for col in champs_a_modifier)
+            valeurs = list(champs_a_modifier.values()) + [note_existante["id"]]
+            cur.execute(f"UPDATE notes SET {colonnes} WHERE id = %s", valeurs)
+        else:
+            cur.execute(
+                """
+                INSERT INTO notes (etudiant_id, matiere_id, devoirs, examen, moyenne)
+                VALUES (%s, %s, %s, %s, %s)
+                """,
+                (
+                    etudiant_id,
+                    matiere_id,
+                    champs.get("devoirs", []),
+                    champs.get("examen"),
+                    champs.get("moyenne"),
+                ),
+            )
+
+    return True
+
+
+def modifier_etudiant(etudiant_id: int, champs: dict) -> bool:
+    """
+    Met à jour uniquement les champs fournis (non None) pour un étudiant.
+    Renvoie False si l'étudiant n'existe pas.
+    """
+    champs_a_modifier = {k: v for k, v in champs.items() if v is not None}
+    if not champs_a_modifier:
+        return True  # rien à faire, mais pas une erreur
+
+    colonnes = ", ".join(f"{col} = %s" for col in champs_a_modifier)
+    valeurs = list(champs_a_modifier.values()) + [etudiant_id]
+
+    with get_cursor(commit=True) as cur:
+        cur.execute(
+            f"UPDATE etudiants SET {colonnes} WHERE id = %s RETURNING id",
+            valeurs,
+        )
+        resultat = cur.fetchone()
+
+    return resultat is not None
+
+
+def modifier_note(etudiant_id: int, nom_matiere: str, champs: dict) -> bool:
+    """
+    Met à jour (ou crée si absente) la note d'une matière pour un étudiant.
+    Renvoie False si l'étudiant ou la matière n'existe pas.
+    """
+    matieres_id = get_matieres_id()
+    matiere_id = matieres_id.get(nom_matiere)
+    if matiere_id is None:
+        return False
+
+    with get_cursor(commit=True) as cur:
+        cur.execute("SELECT id FROM etudiants WHERE id = %s", (etudiant_id,))
+        if cur.fetchone() is None:
+            return False
+
+        cur.execute(
+            "SELECT id FROM notes WHERE etudiant_id = %s AND matiere_id = %s",
+            (etudiant_id, matiere_id),
+        )
+        note_existante = cur.fetchone()
+
+        champs_a_modifier = {k: v for k, v in champs.items() if v is not None}
+
+        if note_existante:
+            if not champs_a_modifier:
+                return True
+            colonnes = ", ".join(f"{col} = %s" for col in champs_a_modifier)
+            valeurs = list(champs_a_modifier.values()) + [note_existante["id"]]
+            cur.execute(f"UPDATE notes SET {colonnes} WHERE id = %s", valeurs)
+        else:
+            cur.execute(
+                """
+                INSERT INTO notes (etudiant_id, matiere_id, devoirs, examen, moyenne)
+                VALUES (%s, %s, %s, %s, %s)
+                """,
+                (
+                    etudiant_id,
+                    matiere_id,
+                    champs.get("devoirs", []),
+                    champs.get("examen"),
+                    champs.get("moyenne"),
+                ),
+            )
+
+    return True
