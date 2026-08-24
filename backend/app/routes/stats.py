@@ -5,6 +5,7 @@ from app.models import (
     get_repartition_par_classe,
     get_repartition_par_source,
     get_moyenne_par_classe,
+    get_moyenne_par_classe_globale,
     get_top10_meilleures_moyennes,
 )
 
@@ -39,3 +40,8 @@ def moyenne_classe():
 def top10():
     """Top 10 des meilleures moyennes générales."""
     return {"resultats": get_top10_meilleures_moyennes()}
+
+@router.get("/stats/moyenne-classe-globale")
+def moyenne_classe_globale():
+    """Moyenne générale par classe, DB + JSON combinés."""
+    return {"resultats": get_moyenne_par_classe_globale()}

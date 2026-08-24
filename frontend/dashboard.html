@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tableau de bord — Projet P8</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <header class="entete">
+    <div class="entete-contenu">
+      <div class="entete-titre">
+        <span class="entete-eyebrow">Projet Final P8</span>
+        <h1>Tableau de bord</h1>
+        <p class="entete-sous-titre">Statistiques et indicateurs du registre</p>
+      </div>
+    </div>
+  </header>
+  <section class="carte carte-graphique" style="margin-top: 1.1rem;">
+  <h2>Élèves archivés</h2>
+  <p class="graphique-description">
+    Élèves retirés des listes principales mais conservés en base de données — peuvent être restaurés à tout moment depuis l'onglet « Archives » du registre principal.
+  </p>
+  <div class="table-scroll">
+    <table class="registre" id="tableArchivesDashboard">
+      <thead>
+        <tr>
+          <th>Numéro</th>
+          <th>Nom</th>
+          <th>Prénom</th>
+          <th>Classe</th>
+          <th>Moyenne</th>
+        </tr>
+      </thead>
+      <tbody id="corpsArchivesDashboard">
+        <tr class="ligne-chargement"><td colspan="5">Chargement…</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+  <main class="conteneur">
+
+    <nav class="onglets">
+      <a class="onglet" href="index.html">← Registre principal</a>
+      <span class="onglet actif">Tableau de bord</span>
+    </nav>
+
+    <p class="resume-bandeau" id="resumeBandeau">Chargement du résumé…</p>
+
+    <section class="grille-kpis" id="grilleKpis">
+      <div class="kpi-carte">
+        <span class="kpi-valeur" id="kpiTotal">—</span>
+        <span class="kpi-label">Total élèves</span>
+      </div>
+      <div class="kpi-carte kpi-db">
+        <span class="kpi-valeur" id="kpiDb">—</span>
+        <span class="kpi-label">En base</span>
+      </div>
+      <div class="kpi-carte kpi-json">
+        <span class="kpi-valeur" id="kpiJson">—</span>
+        <span class="kpi-label">À importer</span>
+      </div>
+      <div class="kpi-carte">
+        <span class="kpi-valeur" id="kpiValides">—</span>
+        <span class="kpi-label">Valides</span>
+      </div>
+      <div class="kpi-carte kpi-erreur">
+        <span class="kpi-valeur" id="kpiInvalides">—</span>
+        <span class="kpi-label">Invalides</span>
+      </div>
+      <div class="kpi-carte">
+        <span class="kpi-valeur" id="kpiArchivees">—</span>
+        <span class="kpi-label">Archivées</span>
+      </div>
+    </section>
+
+    <section class="grille-graphiques">
+      <div class="carte carte-graphique">
+        <h2>Répartition par classe</h2>
+        <p class="graphique-description">
+          Nombre d'élèves dans chaque classe, tous les élèves confondus (base de données et fichier JSON restant à importer).
+        </p>
+        <canvas id="graphClasse"></canvas>
+      </div>
+
+      <div class="carte carte-graphique carte-graphique-petite">
+        <h2>Répartition par source</h2>
+        <p class="graphique-description">
+          Part des élèves déjà enregistrés en base (<strong>DB</strong>, modifiables) contre ceux encore uniquement dans le fichier JSON (<strong>lecture seule</strong>, à importer).
+        </p>
+        <canvas id="graphSource"></canvas>
+      </div>
+
+      <div class="carte carte-graphique">
+        <h2>Moyenne générale par classe</h2>
+        <p class="graphique-description">
+          Moyenne générale calculée à partir des notes réellement enregistrées en base de données, par classe.
+        </p>
+        <canvas id="graphMoyenne"></canvas>
+        <p class="graphique-note" id="noteMoyenne"></p>
+      </div>
+
+      <div class="carte carte-graphique carte-graphique-petite">
+        <h2>Top 10 des meilleures moyennes</h2>
+        <p class="graphique-description">
+          Classement des élèves ayant la meilleure moyenne générale, parmi ceux déjà importés en base.
+        </p>
+        <ol class="liste-top10" id="listeTop10"></ol>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

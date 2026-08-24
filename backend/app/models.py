@@ -539,3 +539,25 @@ def get_top10_meilleures_moyennes() -> list[dict]:
     with get_cursor() as cur:
         cur.execute(query)
         return cur.fetchall()
+
+def get_moyenne_par_classe_globale() -> list[dict]:
+    """
+    Moyenne générale par classe, combinant les étudiants en base ET ceux
+    du JSON non encore importés (calcul fait en Python, pas en SQL, car
+    le JSON n'est jamais dans PostgreSQL tant qu'il n'est pas importé).
+    """
+    etudiants_db = rechercher_etudiants_db()
+    etudiants_json = rechercher_etudiants_json()
+    tous = etudiants_db + etudiants_json
+
+    moyennes_par_classe = {}
+    for e in tous:
+        if e["moyenne_generale"] is None:
+            continue
+        moyennes_par_classe.setdefault(e["classe"], []).append(float(e["moyenne_generale"]))
+
+    resultat = [
+        {"classe": classe, "moyenne_classe": round(sum(valeurs) / len(valeurs), 2)}
+        for classe, valeurs in moyennes_par_classe.items()
+    ]
+    return sorted(resultat, key=lambda r: r["classe"])

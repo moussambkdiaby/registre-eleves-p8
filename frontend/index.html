@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registre des Élèves — Projet P8</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="entete">
+    <div class="entete-contenu">
+      <div class="entete-titre">
+        <span class="entete-eyebrow">Projet Final P8</span>
+        <h1>Registre des Élèves</h1>
+        <p class="entete-sous-titre">Gestion et suivi des données scolaires</p>
+      </div>
+      <div class="entete-stats" id="statsRapides">
+        <div class="stat-chip">
+          <span class="stat-valeur" id="statTotal">—</span>
+          <span class="stat-label">élèves</span>
+        </div>
+        <div class="stat-chip" data-type="db">
+          <span class="stat-valeur" id="statDb">—</span>
+          <span class="stat-label">en base</span>
+        </div>
+        <div class="stat-chip" data-type="json">
+          <span class="stat-valeur" id="statJson">—</span>
+          <span class="stat-label">à importer</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="conteneur">
+
+    <nav class="onglets">
+      <button class="onglet actif" data-vue="liste">Registre principal</button>
+      <button class="onglet" data-vue="archives">Archives</button>
+      <a class="onglet onglet-lien" href="dashboard.html">Tableau de bord →</a>
+    </nav>
+
+    <section class="carte carte-filtres">
+      <div class="filtres-grille">
+        <div class="champ">
+          <label for="rechNom">Nom / Prénom</label>
+          <input type="text" id="rechNom" placeholder="Diallo, Fatou…">
+        </div>
+        <div class="champ">
+          <label for="rechNumero">Numéro</label>
+          <input type="text" id="rechNumero" placeholder="LIHGFR0">
+        </div>
+        <div class="champ">
+          <label for="rechClasse">Classe</label>
+          <select id="rechClasse">
+            <option value="">Toutes</option>
+          </select>
+        </div>
+        <div class="champ">
+          <label for="rechLimite">Par page</label>
+          <select id="rechLimite">
+            <option value="5" selected>5</option>
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+          </select>
+        </div>
+        <button class="bouton bouton-secondaire" id="btnReinitialiser">Réinitialiser</button>
+      </div>
+    </section>
+
+    <section class="carte carte-actions">
+      <div class="actions-gauche">
+        <span id="selectionCompteur">0 sélectionné(s)</span>
+      </div>
+      <div class="actions-droite">
+        <button class="bouton bouton-fantome" id="btnAjouter">+ Ajouter un élève</button>
+        <button class="bouton bouton-primaire" id="btnImporter" disabled>Importer vers la base</button>
+      </div>
+    </section>
+
+    <section class="carte carte-registre">
+      <div class="table-scroll">
+        <table class="registre" id="tableRegistre">
+          <thead>
+            <tr>
+              <th class="col-check"><input type="checkbox" id="toutSelectionner"></th>
+              <th>Numéro</th>
+              <th>Nom</th>
+              <th>Prénom</th>
+              <th>Classe</th>
+              <th>Moyenne</th>
+              <th>Origine</th>
+              <th class="col-actions">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="corpsRegistre">
+            <tr class="ligne-chargement">
+              <td colspan="8">Chargement du registre…</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="pagination" id="pagination">
+        <button class="bouton bouton-fantome" id="pagePrecedente">← Précédent</button>
+        <span id="pageInfo">Page 1</span>
+        <button class="bouton bouton-fantome" id="pageSuivante">Suivant →</button>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="modale-fond" id="modaleFond">
+    <div class="modale" id="modaleAjout">
+      <h2>Ajouter un élève</h2>
+      <form id="formAjout">
+        <div class="champ"><label>Numéro</label><input type="text" name="numero" required></div>
+        <div class="champ"><label>Code</label><input type="text" name="code"></div>
+        <div class="champ"><label>Nom</label><input type="text" name="nom" required></div>
+        <div class="champ"><label>Prénom</label><input type="text" name="prenom" required></div>
+        <div class="champ"><label>Date de naissance</label><input type="date" name="date_naissance" required></div>
+        <div class="champ"><label>Classe</label><input type="text" name="classe" required></div>
+        <div class="modale-actions">
+          <button type="button" class="bouton bouton-fantome" id="btnAnnulerAjout">Annuler</button>
+          <button type="submit" class="bouton bouton-primaire">Enregistrer</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
