@@ -41,35 +41,6 @@ Application web complète de gestion et suivi des données scolaires, développ�
 
 ## 🏗️ Architecture générale
 
-projet-final-p8/
-├── backend/
-│ ├── app/
-│ │ ├── main.py # Point d'entrée FastAPI
-│ │ ├── database.py # Connexion PostgreSQL (psycopg2)
-│ │ ├── config.py # Lecture des variables .env
-│ │ ├── models.py # Requêtes SQL et logique métier
-│ │ ├── schemas.py # Validation Pydantic (entrées/sorties API)
-│ │ └── routes/
-│ │ ├── health.py
-│ │ ├── etudiants.py
-│ │ └── stats.py
-│ └── requirements.txt
-├── database/
-│ └── init.sql # Schéma SQL : tables, contraintes, index
-├── data/
-│ └── valides.json # Données source (issues du projet Python précédent)
-├── frontend/
-│ ├── index.html # Registre principal
-│ ├── dashboard.html # Tableau de bord statistique
-│ ├── css/style.css
-│ └── js/
-│ ├── api.js # Communication avec l'API
-│ ├── main.js # Logique du registre
-│ ├── dashboard.js # Logique des graphiques
-│ └── chart.umd.min.js # Chart.js (hébergé en local)
-└── README.md
-
-
 
 Le projet suit une architecture en couches strictement séparées : le frontend ne communique jamais directement avec la base de données, il passe exclusivement par l'API REST, elle-même organisée en routes → schémas de validation → logique métier → connexion base de données.
 
